@@ -7,7 +7,7 @@ import SnapKit
 import ComponentKit
 import HUD
 import MarketKit
-import Chart
+
 
 class CoinAnalyticsViewController: ThemeViewController {
     private static let placeholderText = "•••"

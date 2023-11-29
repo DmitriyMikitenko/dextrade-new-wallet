@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 import ThemeKit
 import ComponentKit
-import Chart
+
 
 class MarketWideCardCell: BaseSelectableThemeCell {
     private let titleLabel = UILabel()

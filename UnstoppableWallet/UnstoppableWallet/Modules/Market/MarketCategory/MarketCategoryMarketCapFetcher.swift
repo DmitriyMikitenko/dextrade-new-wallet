@@ -1,7 +1,7 @@
 import Foundation
 import MarketKit
 import CurrencyKit
-import Chart
+
 
 class MarketCategoryMarketCapFetcher {
     private let marketKit: MarketKit.Kit

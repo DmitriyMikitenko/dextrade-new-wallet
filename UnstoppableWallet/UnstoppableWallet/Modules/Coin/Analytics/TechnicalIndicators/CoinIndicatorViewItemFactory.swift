@@ -1,7 +1,7 @@
 import Combine
 import Foundation
 import UIKit
-import Chart
+
 import ThemeKit
 
 class CoinIndicatorViewItemFactory {

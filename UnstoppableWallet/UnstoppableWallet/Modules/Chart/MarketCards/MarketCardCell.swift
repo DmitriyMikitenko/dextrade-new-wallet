@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 import ThemeKit
 import HUD
-import Chart
+
 import ComponentKit
 
 class MarketCardCell: UITableViewCell {

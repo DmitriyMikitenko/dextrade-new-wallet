@@ -1,5 +1,5 @@
 import UIKit
-import Chart
+
 
 class ChartIndicatorSettingsModule {
 

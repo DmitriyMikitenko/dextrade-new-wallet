@@ -1,6 +1,6 @@
 import UIKit
 import RxSwift
-import Chart
+
 import LanguageKit
 
 struct MarketGlobalModule {

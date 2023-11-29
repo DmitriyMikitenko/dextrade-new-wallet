@@ -4,7 +4,7 @@ import RxSwift
 import RxRelay
 import RxCocoa
 import MarketKit
-import Chart
+
 
 class CoinAnalyticsViewModel {
     private let queue = DispatchQueue(label: "\(AppConfig.label).coin_analytics_view_model", qos: .userInitiated)

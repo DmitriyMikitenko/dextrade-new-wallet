@@ -5,7 +5,7 @@ import ThemeKit
 import SectionsTableView
 import ComponentKit
 import HUD
-import Chart
+
 
 protocol IMarketOverviewDataSource {
     var isReady: Bool { get }

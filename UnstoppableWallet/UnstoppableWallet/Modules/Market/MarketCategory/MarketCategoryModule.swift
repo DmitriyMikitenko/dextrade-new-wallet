@@ -1,7 +1,7 @@
 import UIKit
 import ThemeKit
 import LanguageKit
-import Chart
+
 import MarketKit
 
 struct MarketCategoryModule {

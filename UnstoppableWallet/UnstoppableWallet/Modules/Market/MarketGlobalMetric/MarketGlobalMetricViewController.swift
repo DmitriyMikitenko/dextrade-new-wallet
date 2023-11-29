@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 import ThemeKit
 import SectionsTableView
-import Chart
+
 import ComponentKit
 import RxSwift
 

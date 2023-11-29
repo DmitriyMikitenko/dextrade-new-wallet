@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 import ThemeKit
 import ComponentKit
-import Chart
+
 
 class CoinAnalyticsHoldersCell: BaseThemeCell {
     static let chartHeight: CGFloat = 40

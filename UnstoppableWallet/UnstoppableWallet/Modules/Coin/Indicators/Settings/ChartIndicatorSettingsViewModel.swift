@@ -1,6 +1,6 @@
 import Combine
 import Foundation
-import Chart
+
 
 class ChartIndicatorSettingsViewModel {
     private let dataSource: IIndicatorDataSource

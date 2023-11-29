@@ -4,7 +4,7 @@ import RxRelay
 import RxCocoa
 import CurrencyKit
 import MarketKit
-import Chart
+
 
 class MarketOverviewGlobalViewModel {
     private let service: MarketOverviewGlobalService

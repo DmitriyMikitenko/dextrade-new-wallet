@@ -2,7 +2,7 @@ import Foundation
 import Combine
 import MarketKit
 import CurrencyKit
-import Chart
+
 
 class MarketGlobalTvlFetcher {
     private let marketKit: MarketKit.Kit

@@ -2,7 +2,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 import SectionsTableView
-import Chart
+
 import ComponentKit
 
 class MarketOverviewGlobalDataSource {

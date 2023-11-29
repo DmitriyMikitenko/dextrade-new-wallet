@@ -1,6 +1,6 @@
 import UIKit
 import UIExtensions
-import Chart
+
 
 class ChartIndicatorFactory {
     static let precalculatedColor = [UIColor.themeYellowD]

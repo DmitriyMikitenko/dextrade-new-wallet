@@ -1,5 +1,5 @@
 import UIKit
-import Chart
+
 import LanguageKit
 import CurrencyKit
 import ThemeKit

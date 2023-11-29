@@ -1,7 +1,7 @@
 import Combine
 import UIKit
 import SnapKit
-import Chart
+
 import ComponentKit
 import ThemeKit
 import SectionsTableView

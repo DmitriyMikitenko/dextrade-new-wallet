@@ -2,7 +2,7 @@ import Combine
 import UIKit
 import RxSwift
 import RxCocoa
-import Chart
+
 import MarketKit
 import CurrencyKit
 import HsExtensions
