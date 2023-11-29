@@ -1,5 +1,5 @@
 import RxCocoa
-import CurrencyKit
+
 import EvmKit
 import BigInt
 import UIKit

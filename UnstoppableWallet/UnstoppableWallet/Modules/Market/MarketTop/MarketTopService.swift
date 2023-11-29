@@ -2,7 +2,7 @@ import Combine
 import RxSwift
 import RxRelay
 import MarketKit
-import CurrencyKit
+
 import HsExtensions
 
 class MarketTopService: IMarketMultiSortHeaderService {

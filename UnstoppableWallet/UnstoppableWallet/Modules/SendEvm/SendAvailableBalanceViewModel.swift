@@ -2,7 +2,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 import BigInt
-import CurrencyKit
+
 
 protocol IAvailableBalanceService: AnyObject {
     var availableBalance: DataStatus<Decimal> { get }

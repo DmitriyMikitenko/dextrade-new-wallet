@@ -1,7 +1,7 @@
 import Foundation
 import RxSwift
 import RxRelay
-import CurrencyKit
+
 import MarketKit
 
 class BaseTransactionsService {

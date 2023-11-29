@@ -1,6 +1,6 @@
 import RxSwift
 import RxRelay
-import CurrencyKit
+
 
 class BaseCurrencySettingsService {
     private static let popularCurrencyCodes = ["USD", "EUR", "GBP", "JPY"]

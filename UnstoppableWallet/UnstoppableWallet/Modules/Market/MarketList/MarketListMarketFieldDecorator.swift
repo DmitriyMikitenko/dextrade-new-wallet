@@ -1,4 +1,4 @@
-import CurrencyKit
+
 import MarketKit
 
 class MarketListMarketFieldDecorator {

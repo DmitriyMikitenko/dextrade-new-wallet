@@ -1,6 +1,6 @@
 import RxSwift
 import RxRelay
-import StorageKit
+
 
 class BalancePrimaryValueManager {
     private let keyBalancePrimaryValue = "balance-primary-value"

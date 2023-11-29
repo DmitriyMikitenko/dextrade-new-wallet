@@ -3,7 +3,7 @@ import SnapKit
 import ThemeKit
 
 
-import CurrencyKit
+
 import RxSwift
 
 class TransactionsViewController: ThemeViewController {

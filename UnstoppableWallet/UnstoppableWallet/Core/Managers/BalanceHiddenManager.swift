@@ -1,6 +1,6 @@
 import RxSwift
 import RxRelay
-import StorageKit
+
 
 class BalanceHiddenManager {
     private let keyBalanceHidden = "wallet-balance-hidden"

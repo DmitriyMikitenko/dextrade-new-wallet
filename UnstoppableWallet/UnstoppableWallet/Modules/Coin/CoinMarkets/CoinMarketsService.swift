@@ -1,6 +1,6 @@
 import Foundation
 import MarketKit
-import CurrencyKit
+
 import HsExtensions
 
 class CoinMarketsService: IMarketSingleSortHeaderService {

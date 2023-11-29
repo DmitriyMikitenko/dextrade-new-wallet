@@ -2,7 +2,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 import MarketKit
-import CurrencyKit
+
 
 class TransactionsCoinSelectViewModel {
     private let service: TransactionsCoinSelectService

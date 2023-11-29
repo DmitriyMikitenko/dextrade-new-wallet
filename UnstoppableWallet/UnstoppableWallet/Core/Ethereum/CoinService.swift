@@ -1,5 +1,5 @@
 import Foundation
-import CurrencyKit
+
 import BigInt
 import MarketKit
 import HsExtensions

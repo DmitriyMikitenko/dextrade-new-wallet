@@ -2,7 +2,7 @@ import Foundation
 import RxSwift
 import RxRelay
 import MarketKit
-import CurrencyKit
+
 
 class CoinSelectService {
     private let dex: SwapModule.Dex

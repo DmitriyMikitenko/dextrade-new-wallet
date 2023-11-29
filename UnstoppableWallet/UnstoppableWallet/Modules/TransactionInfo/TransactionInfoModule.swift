@@ -1,5 +1,5 @@
 import UIKit
-import CurrencyKit
+
 import MarketKit
 
 struct TransactionInfoModule {

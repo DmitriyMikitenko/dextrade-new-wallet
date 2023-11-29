@@ -1,7 +1,7 @@
 import UIKit
 import MarketKit
 import HsToolKit
-import CurrencyKit
+
 
 protocol ISendConfirmationFactory {
     func confirmationViewController() throws -> UIViewController

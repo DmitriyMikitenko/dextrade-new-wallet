@@ -1,5 +1,5 @@
 import MarketKit
-import CurrencyKit
+
 
 class TopPlatformMarketCapFetcher {
     private let marketKit: MarketKit.Kit

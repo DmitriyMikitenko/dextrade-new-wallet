@@ -2,7 +2,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 import BigInt
-import CurrencyKit
+
 
 class SendEip1155AvailableBalanceViewModel {
     private var queue = DispatchQueue(label: "\(AppConfig.label).available-balance-view-model", qos: .userInitiated)

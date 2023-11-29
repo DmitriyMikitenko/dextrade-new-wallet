@@ -4,8 +4,8 @@ import RxSwift
 import RxRelay
 import HsToolKit
 import HsExtensions
-import StorageKit
-import CurrencyKit
+
+
 
 protocol IWalletElementService: AnyObject {
     var delegate: IWalletElementServiceDelegate? { get set }

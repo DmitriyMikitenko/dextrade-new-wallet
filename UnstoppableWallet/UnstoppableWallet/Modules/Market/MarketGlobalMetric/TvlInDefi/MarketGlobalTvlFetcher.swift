@@ -1,7 +1,7 @@
 import Foundation
 import Combine
 import MarketKit
-import CurrencyKit
+
 
 
 class MarketGlobalTvlFetcher {

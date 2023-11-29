@@ -1,6 +1,6 @@
 import RxSwift
 import RxRelay
-import StorageKit
+
 
 class AmountTypeSwitchService {
     private let amountTypeKey = "amount-type-switch-service-amount-type"

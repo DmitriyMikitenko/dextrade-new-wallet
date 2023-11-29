@@ -1,7 +1,7 @@
 import UIKit
 
 
-import CurrencyKit
+
 import ThemeKit
 
 extension ChartConfiguration {

@@ -1,6 +1,6 @@
 import Foundation
 import Combine
-import CurrencyKit
+
 import MarketKit
 
 protocol IWalletCoinPriceServiceDelegate: AnyObject {

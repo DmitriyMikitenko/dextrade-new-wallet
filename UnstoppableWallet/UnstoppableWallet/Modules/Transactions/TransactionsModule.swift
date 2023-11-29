@@ -1,6 +1,6 @@
 import UIKit
 import RxSwift
-import CurrencyKit
+
 import MarketKit
 
 struct TransactionsModule {

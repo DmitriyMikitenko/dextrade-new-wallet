@@ -4,7 +4,7 @@ import RxSwift
 import RxCocoa
 
 import MarketKit
-import CurrencyKit
+
 import HsExtensions
 
 protocol IChartPointFetcher {

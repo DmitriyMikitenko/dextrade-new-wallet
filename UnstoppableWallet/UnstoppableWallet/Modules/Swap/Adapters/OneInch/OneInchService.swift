@@ -2,7 +2,7 @@ import RxSwift
 import RxRelay
 import HsToolKit
 import UniswapKit
-import CurrencyKit
+
 import BigInt
 import EvmKit
 import Foundation

@@ -1,6 +1,6 @@
 import Foundation
 
-import CurrencyKit
+
 import ThemeKit
 
 struct SettingsBackup: Codable {

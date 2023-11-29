@@ -1,7 +1,7 @@
 import RxSwift
 import RxCocoa
 import MarketKit
-import CurrencyKit
+
 
 class TransactionInfoViewModel {
     private let disposeBag = DisposeBag()

@@ -2,7 +2,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 import UniswapKit
-import CurrencyKit
+
 import EvmKit
 import HsToolKit
 

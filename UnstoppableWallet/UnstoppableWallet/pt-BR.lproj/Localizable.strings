@@ -1839,3 +1839,7 @@ Go to Settings - > %@ and allow access to the camera.";
 "cex_withdraw_confirm.network" = "Rede";
 "cex_withdraw_confirm.withdraw" = "Sacar";
 "cex_withdraw_confirm.withdraw_failed" = "Falha na retirada";
+
+// ModuleKit
+
+"settings_language.title" = "Língua";

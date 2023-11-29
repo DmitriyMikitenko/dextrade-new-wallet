@@ -1,7 +1,7 @@
 import Foundation
 import RxSwift
 import RxCocoa
-import CurrencyKit
+
 import MarketKit
 
 protocol IAmountInputService {

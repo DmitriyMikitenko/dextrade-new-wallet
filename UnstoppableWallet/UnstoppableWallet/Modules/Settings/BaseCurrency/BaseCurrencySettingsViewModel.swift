@@ -2,7 +2,7 @@ import UIKit
 import RxSwift
 import RxRelay
 import RxCocoa
-import CurrencyKit
+
 
 class BaseCurrencySettingsViewModel {
     private let service: BaseCurrencySettingsService
