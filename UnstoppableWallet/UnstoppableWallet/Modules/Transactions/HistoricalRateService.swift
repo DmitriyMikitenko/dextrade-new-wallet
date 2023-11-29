@@ -19,7 +19,7 @@ class HistoricalRateService {
 
     private let queue = DispatchQueue(label: "\(AppConfig.label).transactions-historical-rate-service-queue", qos: .userInitiated)
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit) {
         self.marketKit = marketKit
         currency = currencyKit.baseCurrency
 

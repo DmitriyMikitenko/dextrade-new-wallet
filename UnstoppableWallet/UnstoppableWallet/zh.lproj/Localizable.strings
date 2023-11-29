@@ -1851,3 +1851,9 @@
 "jailbreak.info_text" = "Unstoppable团队建议仅在未获取根权限（未越狱）的手机上使用应用。\n\n请注意，使用已获取根权限的设备，应用将难以保证您的加密货币免受来自恶意软件的安全威胁。";
 "button.i_understand" = "我理解";
 
+// ScanQrKit
+
+"access_camera.message" = "无法访问相机此应用，您可以进入设置并允许访问";
+"access_camera.not_supported" = "您的设备不支持从一个项目扫描代码。请使用带有相机的设备。";
+"access_camera.settings" = "进入设置";
+

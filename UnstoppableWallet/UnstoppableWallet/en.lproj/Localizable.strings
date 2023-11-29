@@ -1851,3 +1851,10 @@ Go to Settings - > %@ and allow access to the camera.";
 "jailbreak.info_text" = "The Unstoppable team recommends running app only on non-rooted (not jailbroken) phones.\n\nPlease note when you use a rooted device the app can no longer guarantee the safety of your cryptocurrency from malicious software.";
 "button.i_understand" = "I Understand";
 
+// ScanQrKit
+
+"access_camera.message" = "Access to your camera for this app was denied, you can go to settings and allow access";
+"access_camera.not_supported" = "Your device does not support scanning a code from an item. Please use a device with a camera.";
+"access_camera.settings" = "Go To Settings";
+
+

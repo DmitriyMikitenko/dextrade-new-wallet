@@ -34,13 +34,13 @@ struct WalletModule {
             rateAppManager: App.shared.rateAppManager,
             appManager: App.shared.appManager,
             feeCoinProvider: App.shared.feeCoinProvider,
-            localStorage: StorageKit.LocalStorage.default
+            localStorage: KitLocalStorage.default
         )
 
         coinPriceService.delegate = service
 
         let accountRestoreWarningFactory = AccountRestoreWarningFactory(
-            localStorage: StorageKit.LocalStorage.default,
+            localStorage: KitLocalStorage.default,
             languageManager: LanguageManager.shared
         )
 

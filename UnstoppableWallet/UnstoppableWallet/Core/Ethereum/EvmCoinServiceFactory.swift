@@ -7,12 +7,12 @@ import TronKit
 class EvmCoinServiceFactory {
     private let blockchainType: BlockchainType
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let coinManager: CoinManager
 
     let baseCoinService: CoinService
 
-    init?(blockchainType: BlockchainType, marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, coinManager: CoinManager) {
+    init?(blockchainType: BlockchainType, marketKit: MarketKit.Kit, currencyKit: CurrencyKit, coinManager: CoinManager) {
         self.blockchainType = blockchainType
         self.marketKit = marketKit
         self.currencyKit = currencyKit

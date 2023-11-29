@@ -17,7 +17,7 @@ class MarketNftTopCollectionsService {
     private var tasks = Set<AnyTask>()
 
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
 
     private var internalState: MarketListServiceState<NftTopCollection> = .loading
 
@@ -26,7 +26,7 @@ class MarketNftTopCollectionsService {
     var sortType: MarketNftTopCollectionsModule.SortType = .highestVolume { didSet { syncIfPossible() } }
     var timePeriod: HsTimePeriod { didSet { syncIfPossible() } }
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, timePeriod: HsTimePeriod) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit, timePeriod: HsTimePeriod) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
         self.timePeriod = timePeriod

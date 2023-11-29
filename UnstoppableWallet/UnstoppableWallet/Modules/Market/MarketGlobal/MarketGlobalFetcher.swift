@@ -5,10 +5,10 @@ import MarketKit
 
 class MarketGlobalFetcher {
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let metricsType: MarketGlobalModule.MetricsType
 
-    init(currencyKit: CurrencyKit.Kit, marketKit: MarketKit.Kit, metricsType: MarketGlobalModule.MetricsType) {
+    init(currencyKit: CurrencyKit, marketKit: MarketKit.Kit, metricsType: MarketGlobalModule.MetricsType) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
         self.metricsType = metricsType

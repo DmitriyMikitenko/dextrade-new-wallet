@@ -37,7 +37,7 @@ class SendModule {
             return nil
         }
 
-        let switchService = AmountTypeSwitchService(localStorage: StorageKit.LocalStorage.default)
+        let switchService = AmountTypeSwitchService(localStorage: KitLocalStorage.default)
         let coinService = CoinService(token: token, currencyKit: App.shared.currencyKit, marketKit: App.shared.marketKit)
         let fiatService = FiatService(switchService: switchService, currencyKit: App.shared.currencyKit, marketKit: App.shared.marketKit)
 
@@ -161,7 +161,7 @@ class SendModule {
     private static func viewController(token: Token, mode: SendBaseService.Mode, adapter: ISendBinanceAdapter) -> UIViewController? {
         let feeToken = App.shared.feeCoinProvider.feeToken(token: token) ?? token
 
-        let switchService = AmountTypeSwitchService(localStorage: StorageKit.LocalStorage.default)
+        let switchService = AmountTypeSwitchService(localStorage: KitLocalStorage.default)
         let coinService = CoinService(token: token, currencyKit: App.shared.currencyKit, marketKit: App.shared.marketKit)
         let fiatService = FiatService(switchService: switchService, currencyKit: App.shared.currencyKit, marketKit: App.shared.marketKit)
 
@@ -252,7 +252,7 @@ class SendModule {
     }
 
     private static func viewController(token: Token, mode: SendBaseService.Mode, adapter: ISendZcashAdapter) -> UIViewController? {
-        let switchService = AmountTypeSwitchService(localStorage: StorageKit.LocalStorage.default)
+        let switchService = AmountTypeSwitchService(localStorage: KitLocalStorage.default)
         let coinService = CoinService(token: token, currencyKit: App.shared.currencyKit, marketKit: App.shared.marketKit)
         let fiatService = FiatService(switchService: switchService, currencyKit: App.shared.currencyKit, marketKit: App.shared.marketKit)
 

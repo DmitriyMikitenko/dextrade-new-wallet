@@ -5,7 +5,7 @@ import RxRelay
 class BalancePrimaryValueManager {
     private let keyBalancePrimaryValue = "balance-primary-value"
 
-    private let localStorage: StorageKit.ILocalStorage
+    private let localStorage: ILocalStorage
 
     private let balancePrimaryValueRelay = PublishRelay<BalancePrimaryValue>()
     var balancePrimaryValue: BalancePrimaryValue {
@@ -15,7 +15,7 @@ class BalancePrimaryValueManager {
         }
     }
 
-    init(localStorage: StorageKit.ILocalStorage) {
+    init(localStorage: ILocalStorage) {
         self.localStorage = localStorage
 
         if let rawValue: String = localStorage.value(for: keyBalancePrimaryValue), let value = BalancePrimaryValue(rawValue: rawValue) {

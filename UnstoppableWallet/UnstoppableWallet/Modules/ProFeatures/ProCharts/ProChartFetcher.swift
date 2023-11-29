@@ -5,11 +5,11 @@ import MarketKit
 
 class ProChartFetcher {
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let coin: Coin
     private let type: CoinProChartModule.ProChartType
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, coin: Coin, type: CoinProChartModule.ProChartType) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit, coin: Coin, type: CoinProChartModule.ProChartType) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
         self.coin = coin

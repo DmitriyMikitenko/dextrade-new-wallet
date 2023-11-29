@@ -12,7 +12,7 @@ class UniswapV3ViewModel {
     public let service: UniswapV3Service
     public let tradeService: UniswapV3TradeService
     public let switchService: AmountTypeSwitchService
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let allowanceService: SwapAllowanceService
     private let pendingAllowanceService: SwapPendingAllowanceService
 
@@ -40,7 +40,7 @@ class UniswapV3ViewModel {
 
     private let scheduler = SerialDispatchQueueScheduler(qos: .userInitiated, internalSerialQueueName: "\(AppConfig.label).swap_view_model")
 
-    init(service: UniswapV3Service, tradeService: UniswapV3TradeService, switchService: AmountTypeSwitchService, allowanceService: SwapAllowanceService, pendingAllowanceService: SwapPendingAllowanceService, currencyKit: CurrencyKit.Kit, viewItemHelper: SwapViewItemHelper) {
+    init(service: UniswapV3Service, tradeService: UniswapV3TradeService, switchService: AmountTypeSwitchService, allowanceService: SwapAllowanceService, pendingAllowanceService: SwapPendingAllowanceService, currencyKit: CurrencyKit, viewItemHelper: SwapViewItemHelper) {
         self.service = service
         self.tradeService = tradeService
         self.switchService = switchService

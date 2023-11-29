@@ -12,7 +12,7 @@ class BalanceConversionManager {
     private let keyBlockchainUid = "conversion-blockchain-uid"
 
     private let marketKit: MarketKit.Kit
-    private let localStorage: StorageKit.ILocalStorage
+    private let localStorage: ILocalStorage
 
     let conversionTokens: [Token]
 
@@ -24,7 +24,7 @@ class BalanceConversionManager {
         }
     }
 
-    init(marketKit: MarketKit.Kit, localStorage: StorageKit.ILocalStorage) {
+    init(marketKit: MarketKit.Kit, localStorage: ILocalStorage) {
         self.localStorage = localStorage
         self.marketKit = marketKit
 

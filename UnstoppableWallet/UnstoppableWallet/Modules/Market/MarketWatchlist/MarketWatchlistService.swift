@@ -13,10 +13,10 @@ class MarketWatchlistService: IMarketMultiSortHeaderService {
     private let keyMarketField = "market-watchlist-market-field"
 
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let favoritesManager: FavoritesManager
     private let appManager: IAppManager
-    private let storage: StorageKit.ILocalStorage
+    private let storage: ILocalStorage
     private let disposeBag = DisposeBag()
     private var cancellables = Set<AnyCancellable>()
     private var tasks = Set<AnyTask>()
@@ -32,7 +32,7 @@ class MarketWatchlistService: IMarketMultiSortHeaderService {
 
     private var coinUids = [String]()
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, favoritesManager: FavoritesManager, appManager: IAppManager, storage: StorageKit.ILocalStorage) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit, favoritesManager: FavoritesManager, appManager: IAppManager, storage: ILocalStorage) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
         self.favoritesManager = favoritesManager

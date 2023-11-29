@@ -16,10 +16,10 @@ protocol ICoinService {
 
 class CoinService {
     let token: Token
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let marketKit: MarketKit.Kit
 
-    init(token: Token, currencyKit: CurrencyKit.Kit, marketKit: MarketKit.Kit) {
+    init(token: Token, currencyKit: CurrencyKit, marketKit: MarketKit.Kit) {
         self.token = token
         self.currencyKit = currencyKit
         self.marketKit = marketKit

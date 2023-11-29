@@ -17,7 +17,7 @@ class SendTronModule {
         )
 
         let service = SendTronService(token: token, mode: mode, adapter: adapter, addressService: addressService)
-        let switchService = AmountTypeSwitchService(localStorage: StorageKit.LocalStorage.default)
+        let switchService = AmountTypeSwitchService(localStorage: KitLocalStorage.default)
         let fiatService = FiatService(switchService: switchService, currencyKit: App.shared.currencyKit, marketKit: App.shared.marketKit)
 
         switchService.add(toggleAllowedObservable: fiatService.toggleAvailableObservable)

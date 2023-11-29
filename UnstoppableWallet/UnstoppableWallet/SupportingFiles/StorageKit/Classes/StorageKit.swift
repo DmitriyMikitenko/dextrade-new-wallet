@@ -3,19 +3,7 @@ import UIKit
 class StorageKit {
 
     static func image(named: String) -> UIImage? {
-        UIImage(named: named
-    }
-
-}
-
-extension String {
-
-    var localized: String {
-        LanguageManager.shared.localize(string: self, bundle: Bundle.module) // need to do
-    }
-
-    func localized(_ arguments: CVarArg...) -> String {
-        LanguageManager.shared.localize(string: self, bundle: Bundle.module, arguments: arguments) // need to do
+        UIImage(named: named)
     }
 
 }
@@ -26,7 +14,7 @@ public enum PasscodeLockState {
     case unknown
 }
 
-public class LocalStorage {
+public class KitLocalStorage {
 
     public static var `default`: ILocalStorage {
         userDefaults

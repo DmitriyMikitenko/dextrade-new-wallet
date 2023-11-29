@@ -7,7 +7,7 @@ class MainService {
     private let keyTabIndex = "main-tab-index"
 
     private let localStorage: LocalStorage
-    private let storage: StorageKit.ILocalStorage
+    private let storage: ILocalStorage
     private let launchScreenManager: LaunchScreenManager
     private let accountManager: AccountManager
     private let passcodeManager: PasscodeManager
@@ -38,7 +38,7 @@ class MainService {
 
     private var isColdStart: Bool = true
 
-    init(localStorage: LocalStorage, storage: StorageKit.ILocalStorage, launchScreenManager: LaunchScreenManager, accountManager: AccountManager, walletManager: WalletManager, appManager: IAppManager, passcodeManager: PasscodeManager, lockManager: LockManager, presetTab: MainModule.Tab?) {
+    init(localStorage: LocalStorage, storage: ILocalStorage, launchScreenManager: LaunchScreenManager, accountManager: AccountManager, walletManager: WalletManager, appManager: IAppManager, passcodeManager: PasscodeManager, lockManager: LockManager, presetTab: MainModule.Tab?) {
         self.localStorage = localStorage
         self.storage = storage
         self.launchScreenManager = launchScreenManager

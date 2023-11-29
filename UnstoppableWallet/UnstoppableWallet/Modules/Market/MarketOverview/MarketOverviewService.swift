@@ -8,7 +8,7 @@ import HsExtensions
 
 class MarketOverviewService {
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let appManager: IAppManager
     private let disposeBag = DisposeBag()
     private var cancellables = Set<AnyCancellable>()
@@ -16,7 +16,7 @@ class MarketOverviewService {
 
     @PostPublished private(set) var state: DataStatus<Item> = .loading
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, appManager: IAppManager) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit, appManager: IAppManager) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
         self.appManager = appManager

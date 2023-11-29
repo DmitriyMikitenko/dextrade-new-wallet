@@ -12,7 +12,7 @@ class MarketDiscoveryCategoryService: IMarketSingleSortHeaderService {
     private var tasks = Set<AnyTask>()
 
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
 
     private var categories = [CoinCategory]()
 
@@ -56,7 +56,7 @@ class MarketDiscoveryCategoryService: IMarketSingleSortHeaderService {
         return [.topCoins] + items
     }
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, reachabilityManager: IReachabilityManager) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit, reachabilityManager: IReachabilityManager) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
 

@@ -10,7 +10,7 @@ class MarketTopPlatformsService {
     typealias Item = TopPlatform
 
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private var disposeBag = DisposeBag()
     private var cancellables = Set<AnyCancellable>()
     private var tasks = Set<AnyTask>()
@@ -22,7 +22,7 @@ class MarketTopPlatformsService {
 
     @PostPublished private(set) var state: MarketListServiceState<TopPlatform> = .loading
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, appManager: IAppManager, timePeriod: HsTimePeriod) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit, appManager: IAppManager, timePeriod: HsTimePeriod) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
         self.timePeriod = timePeriod

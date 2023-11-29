@@ -7,7 +7,7 @@ import HsExtensions
 class CoinTreasuriesService {
     private let coin: Coin
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private var tasks = Set<AnyTask>()
 
     private var internalState: DataStatus<[CoinTreasury]> = .loading {
@@ -39,7 +39,7 @@ class CoinTreasuriesService {
         }
     }
 
-    init(coin: Coin, marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit) {
+    init(coin: Coin, marketKit: MarketKit.Kit, currencyKit: CurrencyKit) {
         self.coin = coin
         self.marketKit = marketKit
         self.currencyKit = currencyKit

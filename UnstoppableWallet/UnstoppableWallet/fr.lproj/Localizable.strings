@@ -1850,3 +1850,11 @@ Allez dans Paramètres - > %@ et autorisez l'accès à la caméra.";
 "cannot_check_passcode.info_text" = "Impossible de vérifier l'état du mot de passe (verrouillage de l'écran). Veuillez redémarrer l'application.";
 "jailbreak.info_text" = "L'équipe d'Unstoppable vous recommande d'utiliser l'application uniquement sur des téléphones non rootés (non débridés).\n\nVeuillez noter que lorsque vous utilisez un appareil rooté, l'application ne peut plus garantir la sécurité de votre cryptomonnaie contre les logiciels malveillants.";
 "button.i_understand" = "Je comprends";
+
+
+// ScanQrKit
+
+"access_camera.message" = "L'accès à votre caméra pour cette application a été refusé, vous pouvez aller dans les paramètres et autoriser l'accès";
+"access_camera.not_supported" = "Votre appareil ne prend pas en charge la numérisation d'un code à partir d'un objet. Veuillez utiliser un appareil avec une caméra.";
+"access_camera.settings" = "Accéder aux paramètres";
+

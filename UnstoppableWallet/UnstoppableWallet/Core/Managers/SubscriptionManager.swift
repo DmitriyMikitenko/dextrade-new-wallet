@@ -7,7 +7,7 @@ import HsToolKit
 class SubscriptionManager {
     private let keyAuthToken = "subscription-auth-token"
 
-    private let localStorage: StorageKit.ILocalStorage
+    private let localStorage: ILocalStorage
     private let marketKit: MarketKit.Kit
 
     private var authToken: String? {
@@ -18,7 +18,7 @@ class SubscriptionManager {
 
     @DistinctPublished private(set) var isAuthenticated: Bool
 
-    init(localStorage: StorageKit.ILocalStorage, marketKit: MarketKit.Kit) {
+    init(localStorage: ILocalStorage, marketKit: MarketKit.Kit) {
         self.localStorage = localStorage
         self.marketKit = marketKit
 

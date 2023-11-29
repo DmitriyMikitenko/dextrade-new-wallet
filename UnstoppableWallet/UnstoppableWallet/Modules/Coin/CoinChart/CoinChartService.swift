@@ -18,7 +18,7 @@ class CoinChartService {
 
     private let marketKit: MarketKit.Kit
     private let localStorage: LocalStorage
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let indicatorRepository: IChartIndicatorsRepository
     private let coinUid: String
 
@@ -65,7 +65,7 @@ class CoinChartService {
     private var coinPrice: CoinPrice?
     private var chartPointsMap = [HsPeriodType: ChartPointsItem]()
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, localStorage: LocalStorage, indicatorRepository: IChartIndicatorsRepository, coinUid: String) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit, localStorage: LocalStorage, indicatorRepository: IChartIndicatorsRepository, coinUid: String) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
         self.localStorage = localStorage

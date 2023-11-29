@@ -3,10 +3,10 @@
 class MarketService {
     private let keyTabIndex = "market-tab-index"
 
-    private let storage: StorageKit.ILocalStorage
+    private let storage: ILocalStorage
     private let launchScreenManager: LaunchScreenManager
 
-    init(storage: StorageKit.ILocalStorage, launchScreenManager: LaunchScreenManager) {
+    init(storage: ILocalStorage, launchScreenManager: LaunchScreenManager) {
         self.storage = storage
         self.launchScreenManager = launchScreenManager
     }

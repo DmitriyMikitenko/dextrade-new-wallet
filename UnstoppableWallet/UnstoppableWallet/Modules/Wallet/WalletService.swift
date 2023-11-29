@@ -40,7 +40,7 @@ class WalletService {
     private let cloudAccountBackupManager: CloudBackupManager
     private let rateAppManager: RateAppManager
     private let feeCoinProvider: FeeCoinProvider
-    private let localStorage: StorageKit.ILocalStorage
+    private let localStorage: ILocalStorage
     private let sorter = WalletSorter()
     private let disposeBag = DisposeBag()
 
@@ -86,7 +86,7 @@ class WalletService {
          cacheManager: EnabledWalletCacheManager, accountRestoreWarningManager: AccountRestoreWarningManager, reachabilityManager: IReachabilityManager,
          balancePrimaryValueManager: BalancePrimaryValueManager, balanceHiddenManager: BalanceHiddenManager, balanceConversionManager: BalanceConversionManager,
          cloudAccountBackupManager: CloudBackupManager, rateAppManager: RateAppManager, appManager: IAppManager, feeCoinProvider: FeeCoinProvider,
-         localStorage: StorageKit.ILocalStorage
+         localStorage: ILocalStorage
     ) {
         self.elementServiceFactory = elementServiceFactory
         self.coinPriceService = coinPriceService

@@ -3,10 +3,10 @@ import MarketKit
 
 class TopPlatformMarketCapFetcher {
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let topPlatform: TopPlatform
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, topPlatform: TopPlatform) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit, topPlatform: TopPlatform) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
         self.topPlatform = topPlatform

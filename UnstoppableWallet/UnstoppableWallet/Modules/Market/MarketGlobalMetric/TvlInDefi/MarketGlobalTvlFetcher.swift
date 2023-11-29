@@ -6,12 +6,12 @@ import MarketKit
 
 class MarketGlobalTvlFetcher {
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let service: MarketGlobalTvlMetricService
 
     private let needUpdateSubject = PassthroughSubject<Void, Never>()
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, marketGlobalTvlPlatformService: MarketGlobalTvlMetricService) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit, marketGlobalTvlPlatformService: MarketGlobalTvlMetricService) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
         service = marketGlobalTvlPlatformService

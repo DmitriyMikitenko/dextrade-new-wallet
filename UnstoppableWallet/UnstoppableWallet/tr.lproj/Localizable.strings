@@ -1859,3 +1859,9 @@ Ayarlar - > %@ ekranına giderek kamera erişimine izin verin.";
 "jailbreak.info_text" = "Unstoppable ekibi, uygulamanın yalnızca root olmayan (jailbreak yapılmamış) telefonlarda çalıştırılmasını önerir.\n\nKöklü bir cihaz kullandığınızda, uygulamanın artık kripto para biriminizin kötü amaçlı yazılımlara karşı güvenliğini garanti edemeyeceğini lütfen unutmayın.";
 "button.i_understand" = "Anlıyorum";
 
+// ScanQrKit
+
+"access_camera.message" = "Bu uygulama için kameranıza erişim reddedildi, ayarlara gidip erişime izin verebilirsiniz";
+"access_camera.not_supported" = "Cihazınız bir öğeden kod taramayı desteklemiyor. Lütfen kameralı bir cihaz kullanın.";
+"access_camera.settings" = "Ayarları'na gidin";
+

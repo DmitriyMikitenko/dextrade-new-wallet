@@ -6,7 +6,7 @@ import HsExtensions
 class CoinRankService {
     let type: CoinRankModule.RankType
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private var tasks = Set<AnyTask>()
 
     @PostPublished private(set) var state: State = .loading
@@ -25,7 +25,7 @@ class CoinRankService {
 
     private var internalItems: [InternalItem]?
 
-    init(type: CoinRankModule.RankType, marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit) {
+    init(type: CoinRankModule.RankType, marketKit: MarketKit.Kit, currencyKit: CurrencyKit) {
         self.type = type
         self.marketKit = marketKit
         self.currencyKit = currencyKit

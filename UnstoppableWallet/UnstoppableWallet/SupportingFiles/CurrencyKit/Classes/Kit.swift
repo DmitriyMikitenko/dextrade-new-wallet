@@ -1,7 +1,7 @@
 import Combine
 import UIKit
 
-public class Kit {
+public class CurrencyKit {
     private static let supportedCurrencies = [
         Currency(code: "ARS", symbol: "$",   decimal: 2),
         Currency(code: "AUD", symbol: "A$",  decimal: 2),
@@ -31,12 +31,12 @@ public class Kit {
     private let currencyManager: CurrencyManager
 
     public init(localStorage: ILocalStorage) {
-        currencyManager = CurrencyManager(currencies: Kit.supportedCurrencies, localStorage: localStorage)
+        currencyManager = CurrencyManager(currencies: CurrencyKit.supportedCurrencies, localStorage: localStorage)
     }
 
 }
 
-extension Kit {
+extension CurrencyKit {
 
     public var baseCurrency: Currency {
         get {
@@ -56,7 +56,7 @@ extension Kit {
     }
 
     public static func currencyIcon(code: String) -> UIImage? {
-        CurrencyKit.image(named: code)
+        UIImage(named: code)
     }
 
 }

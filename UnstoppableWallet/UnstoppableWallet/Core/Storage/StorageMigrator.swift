@@ -2,9 +2,9 @@ import Foundation
 import RxSwift
 import RxCocoa
 import GRDB
-import KeychainAccess
 import HsToolKit
 import MarketKit
+import KeychainAccess
 
 class StorageMigrator {
 

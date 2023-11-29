@@ -10,7 +10,7 @@ struct MainModule {
     static func instance(presetTab: Tab? = nil) -> UIViewController {
         let service = MainService(
             localStorage: App.shared.localStorage,
-            storage: StorageKit.LocalStorage.default,
+            storage: KitLocalStorage.default,
             launchScreenManager: App.shared.launchScreenManager,
             accountManager: App.shared.accountManager,
             walletManager: App.shared.walletManager,

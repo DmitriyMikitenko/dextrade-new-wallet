@@ -6,13 +6,13 @@ class BaseCurrencySettingsService {
     private static let popularCurrencyCodes = ["USD", "EUR", "GBP", "JPY"]
     private static let cryptoCurrencyCodes = ["BTC", "ETH", "BNB"]
 
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
 
     let popularCurrencies: [Currency]
     let cryptoCurrencies: [Currency]
     let otherCurrencies: [Currency]
 
-    init(currencyKit: CurrencyKit.Kit) {
+    init(currencyKit: CurrencyKit) {
         self.currencyKit = currencyKit
 
         var popularCurrencies = [Currency]()

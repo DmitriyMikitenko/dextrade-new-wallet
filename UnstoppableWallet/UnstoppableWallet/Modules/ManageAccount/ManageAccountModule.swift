@@ -15,7 +15,7 @@ struct ManageAccountModule {
         }
 
         let accountRestoreWarningFactory = AccountRestoreWarningFactory(
-            localStorage: StorageKit.LocalStorage.default,
+            localStorage: KitLocalStorage.default,
             languageManager: LanguageManager.shared
         )
         let viewModel = ManageAccountViewModel(

@@ -17,7 +17,7 @@ class AppBackupProvider {
     private let chartRepository: ChartIndicatorsRepository
     private let localStorage: LocalStorage
     private let languageManager: LanguageManager
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let themeManager: ThemeManager
     private let launchScreenManager: LaunchScreenManager
     private let appIconManager: AppIconManager
@@ -36,7 +36,7 @@ class AppBackupProvider {
          chartRepository: ChartIndicatorsRepository,
          localStorage: LocalStorage,
          languageManager: LanguageManager,
-         currencyKit: CurrencyKit.Kit,
+         currencyKit: CurrencyKit,
          themeManager: ThemeManager,
          launchScreenManager: LaunchScreenManager,
          appIconManager: AppIconManager,

@@ -19,7 +19,7 @@ struct CexWithdrawModule {
         )
 
         let service = CexWithdrawService(cexAsset: cexAsset, addressService: addressService, selectedNetwork: defaultNetwork)
-        let switchService = AmountTypeSwitchService(localStorage: StorageKit.LocalStorage.default)
+        let switchService = AmountTypeSwitchService(localStorage: KitLocalStorage.default)
         let fiatService = FiatService(switchService: switchService, currencyKit: App.shared.currencyKit, marketKit: App.shared.marketKit)
 
         switchService.add(toggleAllowedObservable: fiatService.toggleAvailableObservable)

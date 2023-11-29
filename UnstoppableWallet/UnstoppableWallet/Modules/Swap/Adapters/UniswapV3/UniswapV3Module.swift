@@ -53,7 +53,7 @@ extension UniswapV3Module: ISwapProvider {
         let viewModel = UniswapV3ViewModel(
                 service: service,
                 tradeService: tradeService,
-                switchService: AmountTypeSwitchService(localStorage: StorageKit.LocalStorage.default, useLocalStorage: false),
+                switchService: AmountTypeSwitchService(localStorage: KitLocalStorage.default, useLocalStorage: false),
                 allowanceService: allowanceService,
                 pendingAllowanceService: pendingAllowanceService,
                 currencyKit: App.shared.currencyKit,

@@ -1850,3 +1850,10 @@ Ir a Ajustes - > %@ y permitir el acceso a la cámara.";
 "cannot_check_passcode.info_text" = "No se puede verificar el estado del código de acceso de la pantalla de bloqueo. Reinicie la aplicación.";
 "jailbreak.info_text" = "El equipo de Unstoppable recomienda ejecutar la aplicación sólo en teléfonos que no hayan sido rooteados (no se permiten jailbrokes para iOS).\n\nTenga en cuenta que cuando utilice un dispositivo rooteado, la aplicación ya no puede garantizar la seguridad de su criptomoneda con el software malicioso.";
 "button.i_understand" = "Entendido";
+
+// ScanQrKit
+
+"access_camera.message" = "Se ha denegado el acceso a tu cámara para esta aplicación, puedes ir a ajustes y permitir el acceso";
+"access_camera.not_supported" = "Su dispositivo no admite escanear un código de un elemento. Por favor, utilice un dispositivo con una cámara.";
+"access_camera.settings" = "Ir a los Ajustes";
+

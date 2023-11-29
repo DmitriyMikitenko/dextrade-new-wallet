@@ -30,7 +30,7 @@ enum RowActionType {
 struct MarketModule {
 
     static func viewController() -> UIViewController {
-        let service = MarketService(storage: StorageKit.LocalStorage.default, launchScreenManager: App.shared.launchScreenManager)
+        let service = MarketService(storage: KitLocalStorage.default, launchScreenManager: App.shared.launchScreenManager)
         let viewModel = MarketViewModel(service: service)
         return MarketViewController(viewModel: viewModel)
     }

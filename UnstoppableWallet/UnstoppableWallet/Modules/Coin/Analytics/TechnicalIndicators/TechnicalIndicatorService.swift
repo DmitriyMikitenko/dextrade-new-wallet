@@ -15,7 +15,7 @@ class TechnicalIndicatorService {
     private var tasks = Set<AnyTask>()
 
     private let coinUid: String
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let marketKit: MarketKit.Kit
 
     let allPeriods: [HsPointTimePeriod] = [.hour1, .hour4, .day1, .week1]
@@ -27,7 +27,7 @@ class TechnicalIndicatorService {
 
     @PostPublished private(set) var state: DataStatus<[SectionItem]> = .loading
 
-    init(coinUid: String, currencyKit: CurrencyKit.Kit, marketKit: MarketKit.Kit) {
+    init(coinUid: String, currencyKit: CurrencyKit, marketKit: MarketKit.Kit) {
         self.coinUid = coinUid
         self.currencyKit = currencyKit
         self.marketKit = marketKit

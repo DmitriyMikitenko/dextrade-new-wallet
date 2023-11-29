@@ -8,7 +8,7 @@ class MarketGlobalTvlMetricService {
     typealias Item = DefiCoin
 
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
 
     private var tasks = Set<AnyTask>()
     private var cancellables = Set<AnyCancellable>()
@@ -51,7 +51,7 @@ class MarketGlobalTvlMetricService {
         }
     }
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
 

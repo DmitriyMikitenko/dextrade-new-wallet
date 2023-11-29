@@ -1852,3 +1852,9 @@ Gehe zu Einstellungen - > %@ und erlaube Zugriff auf die Kamera.";
 "jailbreak.info_text" = "Das Unstoppable-Team empfiehlt, die App nur auf nicht gerooteten (nicht jailbroken) Mobiltelefonen auszuführen.\n\nBitte beachten Sie, wenn Sie ein gerootetes Gerät verwenden, kann die App die Sicherheit Ihrer Kryptowährung vor bösartiger Software nicht mehr garantieren.";
 "button.i_understand" = "Ich stimme zu";
 
+// ScanQrKit
+
+"access_camera.message" = "Zugriff auf Ihre Kamera für diese App wurde verweigert, Sie können zu Einstellungen gehen und den Zugriff erlauben";
+"access_camera.not_supported" = "Ihr Gerät unterstützt kein Scannen eines Codes von einem Element. Bitte verwenden Sie ein Gerät mit einer Kamera.";
+"access_camera.settings" = "Geh zu den Einstellungen";
+

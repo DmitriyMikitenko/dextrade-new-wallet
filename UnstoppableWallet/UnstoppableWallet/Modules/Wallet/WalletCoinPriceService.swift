@@ -12,7 +12,7 @@ class WalletCoinPriceService {
     weak var delegate: IWalletCoinPriceServiceDelegate?
 
     private let tag: String
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let marketKit: MarketKit.Kit
     private var cancellables = Set<AnyCancellable>()
     private var coinPriceCancellables = Set<AnyCancellable>()
@@ -22,7 +22,7 @@ class WalletCoinPriceService {
     private var feeCoinUids = Set<String>()
     private var conversionCoinUids = Set<String>()
 
-    init(tag: String, currencyKit: CurrencyKit.Kit, marketKit: MarketKit.Kit) {
+    init(tag: String, currencyKit: CurrencyKit, marketKit: MarketKit.Kit) {
         self.tag = tag
         self.currencyKit = currencyKit
         self.marketKit = marketKit

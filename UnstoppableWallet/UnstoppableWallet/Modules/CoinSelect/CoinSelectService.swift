@@ -9,7 +9,7 @@ class CoinSelectService {
     private let marketKit: MarketKit.Kit
     private let walletManager: WalletManager
     private let adapterManager: AdapterManager
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let disposeBag = DisposeBag()
 
     private let itemsRelay = PublishRelay<[Item]>()
@@ -21,7 +21,7 @@ class CoinSelectService {
 
     private var filter: String = ""
 
-    init(dex: SwapModule.Dex, marketKit: MarketKit.Kit, walletManager: WalletManager, adapterManager: AdapterManager, currencyKit: CurrencyKit.Kit) {
+    init(dex: SwapModule.Dex, marketKit: MarketKit.Kit, walletManager: WalletManager, adapterManager: AdapterManager, currencyKit: CurrencyKit) {
         self.dex = dex
         self.marketKit = marketKit
         self.walletManager = walletManager

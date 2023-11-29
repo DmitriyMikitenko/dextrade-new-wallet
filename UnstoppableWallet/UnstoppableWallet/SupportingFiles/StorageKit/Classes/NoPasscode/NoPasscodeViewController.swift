@@ -1,7 +1,6 @@
 import UIKit
 import SnapKit
 import ThemeKit
-import ComponentKit
 
 public class NoPasscodeViewController: ThemeViewController {
     public enum Mode {

@@ -18,7 +18,7 @@ struct SendTronConfirmationModule {
             return nil
         }
 
-        let switchService = AmountTypeSwitchService(localStorage: StorageKit.LocalStorage.default)
+        let switchService = AmountTypeSwitchService(localStorage: KitLocalStorage.default)
         let feeFiatService = FiatService(switchService: switchService, currencyKit: App.shared.currencyKit, marketKit: App.shared.marketKit)
         let feeService = SendFeeService(fiatService: feeFiatService, feeToken: coinServiceFactory.baseCoinService.token)
         let feeViewModel = SendFeeViewModel(service: feeService)

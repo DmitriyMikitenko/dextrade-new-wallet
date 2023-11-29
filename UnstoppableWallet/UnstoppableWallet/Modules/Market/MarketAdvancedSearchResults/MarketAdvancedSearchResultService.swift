@@ -9,7 +9,7 @@ class MarketAdvancedSearchResultService: IMarketMultiSortHeaderService {
     typealias Item = MarketInfo
 
     private let marketInfos: [MarketInfo]
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     let priceChangeType: MarketModule.PriceChangeType
 
     @PostPublished private(set) var state: MarketListServiceState<MarketInfo> = .loading
@@ -20,7 +20,7 @@ class MarketAdvancedSearchResultService: IMarketMultiSortHeaderService {
         }
     }
 
-    init(marketInfos: [MarketInfo], currencyKit: CurrencyKit.Kit, priceChangeType: MarketModule.PriceChangeType) {
+    init(marketInfos: [MarketInfo], currencyKit: CurrencyKit, priceChangeType: MarketModule.PriceChangeType) {
         self.marketInfos = marketInfos
         self.currencyKit = currencyKit
         self.priceChangeType = priceChangeType

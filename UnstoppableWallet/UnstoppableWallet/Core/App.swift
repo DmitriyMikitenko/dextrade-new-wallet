@@ -27,7 +27,7 @@ class App {
 
     let blurManager: BlurManager
 
-    let currencyKit: CurrencyKit.Kit
+    let currencyKit: CurrencyKit
 
     let marketKit: MarketKit.Kit
 
@@ -118,7 +118,7 @@ class App {
     let appEventHandler = EventHandler()
 
     init() throws {
-        localStorage = LocalStorage(storage: StorageKit.LocalStorage.default)
+        localStorage = LocalStorage(storage: KitLocalStorage.default)
 
         let databaseURL = try FileManager.default
             .url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
@@ -130,7 +130,7 @@ class App {
         let logRecordStorage = LogRecordStorage(dbPool: dbPool)
         logRecordManager = LogRecordManager(storage: logRecordStorage)
 
-        currencyKit = CurrencyKit.Kit(localStorage: StorageKit.LocalStorage.default)
+        currencyKit = CurrencyKit(localStorage: KitLocalStorage.default)
 
         marketKit = try MarketKit.Kit.instance(
             hsApiBaseUrl: AppConfig.marketApiUrl,
@@ -158,9 +158,9 @@ class App {
         pasteboardManager = PasteboardManager()
         reachabilityManager = ReachabilityManager()
 
-        biometryManager = BiometryManager(localStorage: StorageKit.LocalStorage.default)
+        biometryManager = BiometryManager(localStorage: KitLocalStorage.default)
         passcodeManager = PasscodeManager(biometryManager: biometryManager, secureStorage: keychainKit.secureStorage)
-        lockManager = LockManager(passcodeManager: passcodeManager, localStorage: StorageKit.LocalStorage.default, delegate: lockDelegate)
+        lockManager = LockManager(passcodeManager: passcodeManager, localStorage: KitLocalStorage.default, delegate: lockDelegate)
         lockoutManager = LockoutManager(secureStorage: keychainKit.secureStorage)
 
         blurManager = BlurManager(lockManager: lockManager)
@@ -169,7 +169,7 @@ class App {
         let accountStorage = AccountStorage(secureStorage: keychainKit.secureStorage, storage: accountRecordStorage)
         let activeAccountStorage = ActiveAccountStorage(dbPool: dbPool)
         accountManager = AccountManager(passcodeManager: passcodeManager, accountStorage: accountStorage, activeAccountStorage: activeAccountStorage)
-        accountRestoreWarningManager = AccountRestoreWarningManager(accountManager: accountManager, localStorage: StorageKit.LocalStorage.default)
+        accountRestoreWarningManager = AccountRestoreWarningManager(accountManager: accountManager, localStorage: KitLocalStorage.default)
         accountFactory = AccountFactory(accountManager: accountManager)
 
         backupManager = BackupManager(accountManager: accountManager)
@@ -186,7 +186,7 @@ class App {
         let blockchainSettingsStorage = BlockchainSettingsStorage(storage: blockchainSettingRecordStorage)
         btcBlockchainManager = BtcBlockchainManager(marketKit: marketKit, storage: blockchainSettingsStorage)
 
-        testNetManager = TestNetManager(localStorage: StorageKit.LocalStorage.default)
+        testNetManager = TestNetManager(localStorage: KitLocalStorage.default)
 
         let evmSyncSourceStorage = EvmSyncSourceStorage(dbPool: dbPool)
         evmSyncSourceManager = EvmSyncSourceManager(testNetManager: testNetManager, blockchainSettingsStorage: blockchainSettingsStorage, evmSyncSourceStorage: evmSyncSourceStorage)
@@ -261,7 +261,7 @@ class App {
         rateAppManager = RateAppManager(walletManager: walletManager, adapterManager: adapterManager, localStorage: localStorage)
 
         guidesManager = GuidesManager(networkManager: networkManager)
-        termsManager = TermsManager(storage: StorageKit.LocalStorage.default)
+        termsManager = TermsManager(storage: KitLocalStorage.default)
 
         walletConnectManager = WalletConnectManager(accountManager: accountManager, evmBlockchainManager: evmBlockchainManager)
 
@@ -285,15 +285,15 @@ class App {
         walletConnectSessionManager = WalletConnectSessionManager(service: walletConnectService, storage: walletConnectSessionStorage, accountManager: accountManager, evmBlockchainManager: evmBlockchainManager, currentDateProvider: CurrentDateProvider())
 
         deepLinkManager = DeepLinkManager()
-        launchScreenManager = LaunchScreenManager(storage: StorageKit.LocalStorage.default)
+        launchScreenManager = LaunchScreenManager(storage: KitLocalStorage.default)
 
-        balancePrimaryValueManager = BalancePrimaryValueManager(localStorage: StorageKit.LocalStorage.default)
-        balanceHiddenManager = BalanceHiddenManager(localStorage: StorageKit.LocalStorage.default)
-        balanceConversionManager = BalanceConversionManager(marketKit: marketKit, localStorage: StorageKit.LocalStorage.default)
+        balancePrimaryValueManager = BalancePrimaryValueManager(localStorage: KitLocalStorage.default)
+        balanceHiddenManager = BalanceHiddenManager(localStorage: KitLocalStorage.default)
+        balanceConversionManager = BalanceConversionManager(marketKit: marketKit, localStorage: KitLocalStorage.default)
 
         contactManager = ContactBookManager(localStorage: localStorage, ubiquityContainerIdentifier: AppConfig.privateCloudContainer, helper: ContactBookHelper(), logger: logger)
 
-        subscriptionManager = SubscriptionManager(localStorage: StorageKit.LocalStorage.default, marketKit: marketKit)
+        subscriptionManager = SubscriptionManager(localStorage: KitLocalStorage.default, marketKit: marketKit)
 
         let cexAssetRecordStorage = CexAssetRecordStorage(dbPool: dbPool)
         cexAssetManager = CexAssetManager(accountManager: accountManager, marketKit: marketKit, storage: cexAssetRecordStorage)

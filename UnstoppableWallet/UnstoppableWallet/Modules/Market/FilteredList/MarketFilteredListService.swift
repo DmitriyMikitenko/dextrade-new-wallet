@@ -10,7 +10,7 @@ protocol IMarketFilteredListProvider {
 }
 
 class MarketFilteredListService: IMarketMultiSortHeaderService {
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let provider: IMarketFilteredListProvider
     private var tasks = Set<AnyTask>()
 
@@ -22,7 +22,7 @@ class MarketFilteredListService: IMarketMultiSortHeaderService {
         }
     }
 
-    init(currencyKit: CurrencyKit.Kit, provider: IMarketFilteredListProvider) {
+    init(currencyKit: CurrencyKit, provider: IMarketFilteredListProvider) {
         self.currencyKit = currencyKit
         self.provider = provider
 

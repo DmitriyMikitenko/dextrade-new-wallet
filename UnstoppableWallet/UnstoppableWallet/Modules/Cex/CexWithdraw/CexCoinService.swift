@@ -6,10 +6,10 @@ import HsExtensions
 
 class CexCoinService {
     let cexAsset: CexAsset
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let marketKit: MarketKit.Kit
 
-    init(cexAsset: CexAsset, currencyKit: CurrencyKit.Kit, marketKit: MarketKit.Kit) {
+    init(cexAsset: CexAsset, currencyKit: CurrencyKit, marketKit: MarketKit.Kit) {
         self.cexAsset = cexAsset
         self.currencyKit = currencyKit
         self.marketKit = marketKit

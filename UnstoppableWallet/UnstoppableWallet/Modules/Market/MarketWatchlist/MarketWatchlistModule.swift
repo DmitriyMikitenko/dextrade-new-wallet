@@ -9,7 +9,7 @@ struct MarketWatchlistModule {
                 currencyKit: App.shared.currencyKit,
                 favoritesManager: App.shared.favoritesManager,
                 appManager: App.shared.appManager,
-                storage: StorageKit.LocalStorage.default
+                storage: KitLocalStorage.default
         )
         let watchlistToggleService = MarketWatchlistToggleService(
                 coinUidService: service,

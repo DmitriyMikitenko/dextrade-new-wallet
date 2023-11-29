@@ -11,7 +11,7 @@ class CoinOverviewService {
 
     private let coinUid: String
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let languageManager: LanguageManager
     private let accountManager: AccountManager
     private let walletManager: WalletManager
@@ -23,7 +23,7 @@ class CoinOverviewService {
         }
     }
 
-    init(coinUid: String, marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, languageManager: LanguageManager, accountManager: AccountManager, walletManager: WalletManager) {
+    init(coinUid: String, marketKit: MarketKit.Kit, currencyKit: CurrencyKit, languageManager: LanguageManager, accountManager: AccountManager, walletManager: WalletManager) {
         self.coinUid = coinUid
         self.marketKit = marketKit
         self.currencyKit = currencyKit

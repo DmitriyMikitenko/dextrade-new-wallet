@@ -17,7 +17,7 @@ class MainSettingsService {
     private let passcodeManager: PasscodeManager
     private let termsManager: TermsManager
     private let systemInfoManager: SystemInfoManager
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let walletConnectSessionManager: WalletConnectSessionManager
     private let subscriptionManager: SubscriptionManager
     private let rateAppManager: RateAppManager
@@ -26,7 +26,7 @@ class MainSettingsService {
     private let noWalletRequiredActionsRelay = BehaviorRelay<Bool>(value: false)
 
     init(backupManager: BackupManager, cloudAccountBackupManager: CloudBackupManager, accountRestoreWarningManager: AccountRestoreWarningManager, accountManager: AccountManager, contactBookManager: ContactBookManager, passcodeManager: PasscodeManager, termsManager: TermsManager,
-         systemInfoManager: SystemInfoManager, currencyKit: CurrencyKit.Kit, walletConnectSessionManager: WalletConnectSessionManager, subscriptionManager: SubscriptionManager, rateAppManager: RateAppManager)
+         systemInfoManager: SystemInfoManager, currencyKit: CurrencyKit, walletConnectSessionManager: WalletConnectSessionManager, subscriptionManager: SubscriptionManager, rateAppManager: RateAppManager)
     {
         self.cloudAccountBackupManager = cloudAccountBackupManager
         self.backupManager = backupManager

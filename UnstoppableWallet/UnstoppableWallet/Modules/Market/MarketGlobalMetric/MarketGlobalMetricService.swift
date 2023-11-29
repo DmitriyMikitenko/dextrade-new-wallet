@@ -9,7 +9,7 @@ class MarketGlobalMetricService: IMarketSingleSortHeaderService {
     typealias Item = MarketInfo
 
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let disposeBag = DisposeBag()
     private var tasks = Set<AnyTask>()
 
@@ -24,7 +24,7 @@ class MarketGlobalMetricService: IMarketSingleSortHeaderService {
 
     let initialMarketFieldIndex: Int
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, metricsType: MarketGlobalModule.MetricsType) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit, metricsType: MarketGlobalModule.MetricsType) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
         self.metricsType = metricsType

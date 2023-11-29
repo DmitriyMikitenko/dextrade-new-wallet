@@ -1,7 +1,7 @@
 public class KeychainKit {
     private let keyDidLaunchOnce = "did_launch_once_key"
 
-    private let localStorage = LocalStorage.default
+    private let localStorage = KitLocalStorage.default
     private let keychain: KeychainStorage
     private let manager: PasscodeLockManager
 

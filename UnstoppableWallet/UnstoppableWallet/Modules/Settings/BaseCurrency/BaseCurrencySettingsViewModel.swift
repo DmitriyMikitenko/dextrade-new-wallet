@@ -28,7 +28,7 @@ class BaseCurrencySettingsViewModel {
 
     private func viewItem(currency: Currency, selected: Bool) -> ViewItem {
         ViewItem(
-                icon: CurrencyKit.Kit.currencyIcon(code: currency.code),
+                icon: CurrencyKit.currencyIcon(code: currency.code),
                 code: currency.code,
                 symbol: currency.symbol,
                 selected: selected

@@ -6,7 +6,7 @@ class BalanceHiddenManager {
     private let keyBalanceHidden = "wallet-balance-hidden"
     private let keyBalanceAutoHide = "wallet-balance-auto-hide"
 
-    private let localStorage: StorageKit.ILocalStorage
+    private let localStorage: ILocalStorage
 
     private let balanceHiddenRelay = PublishRelay<Bool>()
     private(set) var balanceHidden: Bool {
@@ -17,7 +17,7 @@ class BalanceHiddenManager {
 
     private(set) var balanceAutoHide: Bool
 
-    init(localStorage: StorageKit.ILocalStorage) {
+    init(localStorage: ILocalStorage) {
         self.localStorage = localStorage
 
         if let balanceHidden: Bool = localStorage.value(for: keyBalanceHidden) {

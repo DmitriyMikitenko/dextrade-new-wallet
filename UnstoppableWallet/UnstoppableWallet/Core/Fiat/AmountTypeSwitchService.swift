@@ -4,7 +4,7 @@ import RxRelay
 
 class AmountTypeSwitchService {
     private let amountTypeKey = "amount-type-switch-service-amount-type"
-    private let localStorage: StorageKit.ILocalStorage
+    private let localStorage: ILocalStorage
     private let useLocalStorage: Bool
 
     private var toggleAvailableObservables = [Observable<Bool>]()
@@ -26,7 +26,7 @@ class AmountTypeSwitchService {
         }
     }
 
-    init(localStorage: StorageKit.ILocalStorage, useLocalStorage: Bool = true) {
+    init(localStorage: ILocalStorage, useLocalStorage: Bool = true) {
         let localStorageValue = localStorage.value(for: amountTypeKey).flatMap { AmountType(rawValue: $0) } ?? .coin
         if useLocalStorage {
             amountType = localStorageValue

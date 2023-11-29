@@ -4,11 +4,11 @@ import HsExtensions
 
 class TermsManager {
     private let keyTermsAccepted = "key_terms_accepted"
-    private let storage: StorageKit.ILocalStorage
+    private let storage: ILocalStorage
 
     @DistinctPublished var termsAccepted: Bool
 
-    init(storage: StorageKit.ILocalStorage) {
+    init(storage: ILocalStorage) {
         self.storage = storage
 
         termsAccepted = storage.value(for: keyTermsAccepted) ?? false

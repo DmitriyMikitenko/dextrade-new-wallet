@@ -9,7 +9,7 @@ class MarketGlobalDefiMetricService: IMarketSingleSortHeaderService {
     typealias Item = DefiItem
 
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let disposeBag = DisposeBag()
     private var tasks = Set<AnyTask>()
 
@@ -23,7 +23,7 @@ class MarketGlobalDefiMetricService: IMarketSingleSortHeaderService {
 
     let initialMarketFieldIndex: Int = 1
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
 

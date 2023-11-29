@@ -5,10 +5,10 @@ import MarketKit
 
 class MarketCategoryMarketCapFetcher {
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let category: String
 
-    init(currencyKit: CurrencyKit.Kit, marketKit: MarketKit.Kit, category: String) {
+    init(currencyKit: CurrencyKit, marketKit: MarketKit.Kit, category: String) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
         self.category = category

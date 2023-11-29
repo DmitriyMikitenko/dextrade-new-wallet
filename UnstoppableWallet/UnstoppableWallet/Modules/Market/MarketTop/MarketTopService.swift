@@ -9,7 +9,7 @@ class MarketTopService: IMarketMultiSortHeaderService {
     typealias Item = MarketInfo
 
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let disposeBag = DisposeBag()
     private var tasks = Set<AnyTask>()
 
@@ -35,7 +35,7 @@ class MarketTopService: IMarketMultiSortHeaderService {
 
     let initialMarketFieldIndex: Int
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit, marketTop: MarketModule.MarketTop, sortingField: MarketModule.SortingField, marketField: MarketModule.MarketField) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit, marketTop: MarketModule.MarketTop, sortingField: MarketModule.SortingField, marketField: MarketModule.MarketField) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
         self.marketTop = marketTop

@@ -20,9 +20,9 @@ class LocalStorage {
     private let keyIndicatorsShown = "indicators-shown"
     private let keyTelegramSupportRequested = "telegram-support-requested"
 
-    private let storage: StorageKit.ILocalStorage
+    private let storage: ILocalStorage
 
-    init(storage: StorageKit.ILocalStorage) {
+    init(storage: ILocalStorage) {
         self.storage = storage
     }
 }

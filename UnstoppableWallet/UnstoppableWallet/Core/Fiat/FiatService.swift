@@ -11,7 +11,7 @@ class FiatService {
     private var queue = DispatchQueue(label: "\(AppConfig.label).fiat-service", qos: .userInitiated)
 
     private let switchService: AmountTypeSwitchService
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private let marketKit: MarketKit.Kit
 
     private var coinValueKind: CoinValue.Kind?
@@ -52,7 +52,7 @@ class FiatService {
 
     var coinAmountLocked = false
 
-    init(switchService: AmountTypeSwitchService, currencyKit: CurrencyKit.Kit, marketKit: MarketKit.Kit) {
+    init(switchService: AmountTypeSwitchService, currencyKit: CurrencyKit, marketKit: MarketKit.Kit) {
         self.switchService = switchService
         self.currencyKit = currencyKit
         self.marketKit = marketKit

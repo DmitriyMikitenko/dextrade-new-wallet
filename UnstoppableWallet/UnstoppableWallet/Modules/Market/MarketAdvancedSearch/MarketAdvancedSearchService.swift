@@ -31,7 +31,7 @@ class MarketAdvancedSearchService {
     private let allTimeDeltaPercent: Decimal = 10
 
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
 
     private var internalState: State = .loading {
         didSet {
@@ -176,7 +176,7 @@ class MarketAdvancedSearchService {
 
     let allBlockchains: [Blockchain]
 
-    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit) {
+    init(marketKit: MarketKit.Kit, currencyKit: CurrencyKit) {
         self.marketKit = marketKit
         self.currencyKit = currencyKit
 

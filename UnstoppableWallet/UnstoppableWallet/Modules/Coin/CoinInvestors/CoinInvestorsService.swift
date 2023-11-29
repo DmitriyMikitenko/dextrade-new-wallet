@@ -7,12 +7,12 @@ import HsExtensions
 class CoinInvestorsService {
     private let coinUid: String
     private let marketKit: MarketKit.Kit
-    private let currencyKit: CurrencyKit.Kit
+    private let currencyKit: CurrencyKit
     private var tasks = Set<AnyTask>()
 
     @PostPublished private(set) var state: DataStatus<[CoinInvestment]> = .loading
 
-    init(coinUid: String, marketKit: MarketKit.Kit, currencyKit: CurrencyKit.Kit) {
+    init(coinUid: String, marketKit: MarketKit.Kit, currencyKit: CurrencyKit) {
         self.coinUid = coinUid
         self.marketKit = marketKit
         self.currencyKit = currencyKit

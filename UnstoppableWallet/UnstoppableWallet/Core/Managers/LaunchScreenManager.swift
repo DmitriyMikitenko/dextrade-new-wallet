@@ -6,7 +6,7 @@ class LaunchScreenManager {
     private let keyLaunchScreen = "launch-screen"
     private let keyShowMarket = "show-market-screen"
 
-    private let storage: StorageKit.ILocalStorage
+    private let storage: ILocalStorage
 
     private let launchScreenRelay = PublishRelay<LaunchScreen>()
     private let showMarketRelay = PublishRelay<Bool>()
@@ -40,7 +40,7 @@ class LaunchScreenManager {
         }
     }
 
-    init(storage: StorageKit.ILocalStorage) {
+    init(storage: ILocalStorage) {
         self.storage = storage
     }
 
