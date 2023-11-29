@@ -1,5 +1,5 @@
 
-import ThemeKit
+
 import UIKit
 
 struct MainModule {

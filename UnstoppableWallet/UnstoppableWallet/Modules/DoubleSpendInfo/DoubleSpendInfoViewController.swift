@@ -1,7 +1,7 @@
 import UIKit
 import SnapKit
 import SectionsTableView
-import ThemeKit
+
 
 
 class DoubleSpendInfoViewController: ThemeViewController {

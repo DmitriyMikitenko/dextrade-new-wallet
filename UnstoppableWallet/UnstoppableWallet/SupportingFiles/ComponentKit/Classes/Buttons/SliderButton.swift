@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import ThemeKit
+
 
 open class SliderButton: UIView {
     public static let margin: CGFloat = 3

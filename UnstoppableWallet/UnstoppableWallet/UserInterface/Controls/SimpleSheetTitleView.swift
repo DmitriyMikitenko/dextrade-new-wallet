@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import ThemeKit
+
 
 class SimpleSheetTitleView: UIView {
     static let height: CGFloat = 40

@@ -3,7 +3,7 @@ import BigInt
 import EvmKit
 import RxSwift
 import RxCocoa
-import ThemeKit
+
 
 struct EvmFeeModule {
     private static let surchargePercent: Double = 10

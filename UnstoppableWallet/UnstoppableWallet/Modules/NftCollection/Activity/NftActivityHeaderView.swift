@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 import RxSwift
 import UIExtensions
-import ThemeKit
+
 
 
 class NftActivityHeaderView: UIView {

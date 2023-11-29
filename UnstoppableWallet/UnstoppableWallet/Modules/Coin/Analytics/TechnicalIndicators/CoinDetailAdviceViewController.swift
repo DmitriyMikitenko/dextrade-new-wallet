@@ -1,7 +1,7 @@
 import UIKit
 
 import SectionsTableView
-import ThemeKit
+
 
 class CoinDetailAdviceViewController: ThemeViewController {
 

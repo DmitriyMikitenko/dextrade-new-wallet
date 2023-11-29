@@ -1,6 +1,6 @@
 import SDWebImageSwiftUI
 import SwiftUI
-import ThemeKit
+
 
 struct AppearanceView: View {
     @ObservedObject var viewModel: AppearanceViewModel

@@ -3,7 +3,7 @@ import Combine
 
 import RxRelay
 import RxSwift
-import ThemeKit
+
 import WalletConnectV1
 
 class MainSettingsService {

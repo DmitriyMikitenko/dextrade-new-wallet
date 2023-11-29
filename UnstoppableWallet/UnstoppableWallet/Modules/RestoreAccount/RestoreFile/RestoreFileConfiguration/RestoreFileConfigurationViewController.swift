@@ -2,7 +2,7 @@ import Combine
 
 import Foundation
 import SectionsTableView
-import ThemeKit
+
 import UIKit
 
 class RestoreFileConfigurationViewController: KeyboardAwareViewController {

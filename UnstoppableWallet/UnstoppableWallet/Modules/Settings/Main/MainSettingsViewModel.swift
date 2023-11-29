@@ -2,7 +2,7 @@ import Combine
 import RxCocoa
 import RxRelay
 import RxSwift
-import ThemeKit
+
 import WalletConnectV1
 
 class MainSettingsViewModel {

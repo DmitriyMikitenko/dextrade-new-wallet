@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import ThemeKit
+
 import Kingfisher
 
 class NftAssetView: UIView {

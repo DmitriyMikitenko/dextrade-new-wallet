@@ -1,5 +1,5 @@
 import UIKit
-import ThemeKit
+
 import SnapKit
 
 class InputPrefixWrapperView: UIView, ISizeAwareView {

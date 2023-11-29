@@ -2,7 +2,7 @@ import UIKit
 import MarketKit
 import EvmKit
 import SectionsTableView
-import ThemeKit
+
 import RxSwift
 import RxCocoa
 import UniswapKit

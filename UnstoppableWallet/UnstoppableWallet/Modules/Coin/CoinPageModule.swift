@@ -1,7 +1,7 @@
 
 import MarketKit
 import SwiftUI
-import ThemeKit
+
 import UIKit
 
 struct CoinPageModule {

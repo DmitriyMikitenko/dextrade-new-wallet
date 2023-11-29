@@ -3,7 +3,7 @@
 
 import RxSwift
 import SnapKit
-import ThemeKit
+
 import UIKit
 
 class ChartUiView: UIView {

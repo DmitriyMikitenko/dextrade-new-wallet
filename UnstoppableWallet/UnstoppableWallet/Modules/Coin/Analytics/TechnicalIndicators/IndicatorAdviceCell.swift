@@ -1,7 +1,7 @@
 import UIKit
 import SnapKit
 
-import ThemeKit
+
 
 
 class IndicatorAdviceCell: BaseThemeCell {

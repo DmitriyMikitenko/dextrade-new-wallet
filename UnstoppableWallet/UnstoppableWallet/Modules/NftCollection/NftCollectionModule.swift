@@ -1,7 +1,7 @@
 import UIKit
 
 import MarketKit
-import ThemeKit
+
 
 struct NftCollectionModule {
 

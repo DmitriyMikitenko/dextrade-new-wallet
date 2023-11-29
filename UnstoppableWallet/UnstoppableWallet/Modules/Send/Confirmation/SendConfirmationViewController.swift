@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 import SectionsTableView
 import RxSwift
-import ThemeKit
+
 
 
 class SendConfirmationViewController: ThemeViewController, SectionsDataSource {

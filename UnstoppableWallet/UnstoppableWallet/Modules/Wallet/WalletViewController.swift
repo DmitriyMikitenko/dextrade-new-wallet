@@ -7,7 +7,7 @@ import RxCocoa
 import RxSwift
 import SectionsTableView
 import SwiftUI
-import ThemeKit
+
 import UIKit
 
 class WalletViewController: ThemeViewController {

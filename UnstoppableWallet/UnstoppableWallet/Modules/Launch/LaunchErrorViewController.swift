@@ -1,7 +1,7 @@
 import UIKit
 import MessageUI
 import SnapKit
-import ThemeKit
+
 
 
 class LaunchErrorViewController: ThemeViewController {

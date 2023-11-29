@@ -7,7 +7,7 @@ import RxCocoa
 
 import MarketKit
 import SectionsTableView
-import ThemeKit
+
 
 class WalletTokenListViewController: ThemeSearchViewController {
     private let viewModel: WalletTokenListViewModel

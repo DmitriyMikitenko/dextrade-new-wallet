@@ -1,7 +1,7 @@
 
 import SectionsTableView
 import SwiftUI
-import ThemeKit
+
 import UIKit
 
 class PrivacyPolicyViewController: ThemeViewController {

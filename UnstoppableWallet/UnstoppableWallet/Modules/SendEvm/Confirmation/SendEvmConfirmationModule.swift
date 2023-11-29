@@ -1,6 +1,6 @@
 import Foundation
 import UIKit
-import ThemeKit
+
 import EvmKit
 import MarketKit
 import HsExtensions

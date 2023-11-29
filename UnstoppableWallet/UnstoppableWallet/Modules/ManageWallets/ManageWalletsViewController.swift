@@ -5,7 +5,7 @@ import RxCocoa
 import SnapKit
 
 import SectionsTableView
-import ThemeKit
+
 
 class ManageWalletsViewController: ThemeSearchViewController {
     private let viewModel: ManageWalletsViewModel

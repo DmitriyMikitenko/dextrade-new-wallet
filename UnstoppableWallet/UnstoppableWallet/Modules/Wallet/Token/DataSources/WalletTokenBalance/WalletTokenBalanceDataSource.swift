@@ -4,7 +4,7 @@ import Foundation
 
 import MarketKit
 import SectionsTableView
-import ThemeKit
+
 import UIKit
 
 class WalletTokenBalanceDataSource: NSObject {

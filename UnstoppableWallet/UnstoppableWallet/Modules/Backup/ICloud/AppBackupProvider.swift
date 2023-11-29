@@ -2,7 +2,7 @@
 import Foundation
 
 import MarketKit
-import ThemeKit
+
 
 class AppBackupProvider {
     private static let version = 2

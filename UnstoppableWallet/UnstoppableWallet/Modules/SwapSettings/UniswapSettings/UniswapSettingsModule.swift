@@ -1,5 +1,5 @@
 import UIKit
-import ThemeKit
+
 import MarketKit
 
 protocol ISwapSettingProvider: AnyObject {

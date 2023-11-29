@@ -1,6 +1,6 @@
 import RxSwift
 import RxRelay
-import ThemeKit
+
 import MarketKit
 
 class SwapSelectProviderService {

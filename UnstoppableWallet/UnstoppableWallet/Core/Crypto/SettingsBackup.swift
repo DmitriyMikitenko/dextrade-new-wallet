@@ -1,7 +1,7 @@
 import Foundation
 
 
-import ThemeKit
+
 
 struct SettingsBackup: Codable {
     var evmSyncSources: EvmSyncSourceManager.SyncSourceBackup

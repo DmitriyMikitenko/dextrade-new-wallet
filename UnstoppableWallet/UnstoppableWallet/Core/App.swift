@@ -5,7 +5,7 @@ import HsToolKit
 
 import MarketKit
 
-import ThemeKit
+
 
 class App {
     static var instance: App?

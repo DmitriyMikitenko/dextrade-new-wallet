@@ -5,7 +5,7 @@ import SnapKit
 
 
 import SectionsTableView
-import ThemeKit
+
 
 class MarketDiscoveryViewController: ThemeSearchViewController {
     private let viewModel: MarketDiscoveryViewModel

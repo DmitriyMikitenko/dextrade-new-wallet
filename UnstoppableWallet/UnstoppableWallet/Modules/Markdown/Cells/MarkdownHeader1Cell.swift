@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import ThemeKit
+
 
 class MarkdownHeader1Cell: UITableViewCell {
     private static let topPadding: CGFloat = .margin6x

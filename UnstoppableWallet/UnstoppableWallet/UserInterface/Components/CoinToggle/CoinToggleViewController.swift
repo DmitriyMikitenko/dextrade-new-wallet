@@ -7,7 +7,7 @@ import SnapKit
 
 import MarketKit
 import SectionsTableView
-import ThemeKit
+
 
 class CoinToggleViewController: ThemeSearchViewController {
     private let viewModel: ICoinToggleViewModel

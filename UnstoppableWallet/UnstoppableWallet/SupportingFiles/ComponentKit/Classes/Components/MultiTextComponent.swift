@@ -1,5 +1,5 @@
 import UIKit
-import ThemeKit
+
 import SnapKit
 
 public class MultiTextComponent: UIView {

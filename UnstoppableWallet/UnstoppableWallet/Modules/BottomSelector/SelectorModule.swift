@@ -1,6 +1,6 @@
 import UIKit
 
-import ThemeKit
+
 import SectionsTableView
 
 struct SelectorModule {

@@ -3,7 +3,7 @@
 import MarketKit
 import RxSwift
 
-import ThemeKit
+
 import UIKit
 
 struct WalletModule {

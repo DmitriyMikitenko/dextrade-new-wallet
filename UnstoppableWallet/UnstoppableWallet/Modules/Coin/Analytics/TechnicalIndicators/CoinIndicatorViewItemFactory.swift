@@ -2,7 +2,7 @@ import Combine
 import Foundation
 import UIKit
 
-import ThemeKit
+
 
 class CoinIndicatorViewItemFactory {
     static let sectionNames = ["coin_analytics.indicators.summary".localized] + ChartIndicator.Category.allCases.map { $0.title }

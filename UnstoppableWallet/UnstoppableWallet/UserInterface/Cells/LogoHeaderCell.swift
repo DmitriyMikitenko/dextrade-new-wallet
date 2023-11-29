@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import ThemeKit
+
 
 class LogoHeaderCell: UITableViewCell {
     private static let logoSize: CGFloat = 72

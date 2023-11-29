@@ -1,5 +1,5 @@
 import SwiftUI
-import ThemeKit
+
 import UIKit
 
 struct TermsModule {

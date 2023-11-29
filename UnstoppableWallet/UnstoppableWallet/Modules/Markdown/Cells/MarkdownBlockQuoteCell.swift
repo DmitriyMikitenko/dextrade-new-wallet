@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import ThemeKit
+
 
 class MarkdownBlockQuoteCell: UITableViewCell {
     private static let verticalMargin: CGFloat = .margin3x

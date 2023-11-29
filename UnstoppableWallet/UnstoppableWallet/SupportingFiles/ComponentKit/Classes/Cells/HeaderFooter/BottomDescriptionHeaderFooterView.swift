@@ -1,5 +1,5 @@
 import UIKit
-import ThemeKit
+
 import SnapKit
 
 open class BottomDescriptionHeaderFooterView: UITableViewHeaderFooterView {

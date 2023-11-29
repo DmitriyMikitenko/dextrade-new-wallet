@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-import ThemeKit
+
 
 class TokenSelectView: UIView {
     let wrapperButton = UIButton()

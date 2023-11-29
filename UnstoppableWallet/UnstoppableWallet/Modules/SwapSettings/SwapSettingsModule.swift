@@ -1,7 +1,7 @@
 import UIKit
 import EvmKit
 import SectionsTableView
-import ThemeKit
+
 
 protocol ISwapSettingsDataSource: AnyObject {
     func viewDidLoad()

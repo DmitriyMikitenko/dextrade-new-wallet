@@ -5,7 +5,7 @@ import RxSwift
 import SnapKit
 
 import MarketKit
-import ThemeKit
+
 import SectionsTableView
 
 class TransactionsCoinSelectViewController: ThemeSearchViewController {

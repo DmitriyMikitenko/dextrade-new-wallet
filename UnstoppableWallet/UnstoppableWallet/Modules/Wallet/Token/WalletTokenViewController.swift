@@ -2,7 +2,7 @@ import Combine
 import UIKit
 
 import MarketKit
-import ThemeKit
+
 
 class WalletTokenViewController: ThemeViewController {
     private let viewModel: WalletTokenViewModel

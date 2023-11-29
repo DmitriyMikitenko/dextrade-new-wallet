@@ -1,5 +1,5 @@
 import UIKit
-import ThemeKit
+
 
 struct ManageWalletsModule {
 

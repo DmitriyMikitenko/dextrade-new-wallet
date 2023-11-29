@@ -7,7 +7,7 @@ import RxCocoa
 
 import MarketKit
 import SectionsTableView
-import ThemeKit
+
 
 class WalletTokenListDataSource: NSObject {
     private let animationDuration: TimeInterval = 0.2

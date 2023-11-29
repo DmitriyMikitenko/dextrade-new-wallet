@@ -2,7 +2,7 @@ import HsToolKit
 import RxCocoa
 import RxSwift
 
-import ThemeKit
+
 import UIKit
 
 class MainViewController: ThemeTabBarController {

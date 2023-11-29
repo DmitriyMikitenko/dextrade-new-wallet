@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import ThemeKit
+
 
 class MarkdownTextCell: UITableViewCell {
     private static let verticalPadding: CGFloat = .margin3x

@@ -2,7 +2,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 import MarketKit
-import ThemeKit
+
 
 class RestoreSettingsView {
     private let viewModel: RestoreSettingsViewModel

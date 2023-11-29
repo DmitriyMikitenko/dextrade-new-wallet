@@ -1,6 +1,6 @@
 import UIKit
 import EvmKit
-import ThemeKit
+
 import BigInt
 import HsExtensions
 

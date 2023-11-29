@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import ThemeKit
+
 
 open class SubtitleHeaderFooterView: UITableViewHeaderFooterView {
     private let label = UILabel()
