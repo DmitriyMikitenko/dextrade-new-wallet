@@ -1,6 +1,5 @@
 import UIKit
 import SnapKit
-import ActionSheet
 import ThemeKit
 import HUD
 import ComponentKit
