@@ -2,7 +2,7 @@ import UIKit
 import SectionsTableView
 import ThemeKit
 import RxSwift
-import ComponentKit
+
 
 class SwapSelectProviderViewController: ThemeActionSheetController {
     private let viewModel: SwapSelectProviderViewModel

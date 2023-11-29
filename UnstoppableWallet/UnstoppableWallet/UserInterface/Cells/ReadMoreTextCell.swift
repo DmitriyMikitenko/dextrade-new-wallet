@@ -1,7 +1,7 @@
 import UIKit
 import ThemeKit
 import SnapKit
-import ComponentKit
+
 
 class ReadMoreTextCell: BaseThemeCell {
     private static let collapsedHeight: CGFloat = 160

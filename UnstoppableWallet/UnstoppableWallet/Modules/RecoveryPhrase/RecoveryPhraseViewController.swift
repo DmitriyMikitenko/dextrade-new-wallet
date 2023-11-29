@@ -2,7 +2,7 @@ import UIKit
 import ThemeKit
 import SnapKit
 import SectionsTableView
-import ComponentKit
+
 
 class RecoveryPhraseViewController: ThemeViewController {
     private let viewModel: RecoveryPhraseViewModel

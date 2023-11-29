@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import ComponentKit
+
 
 class FilterView: UIView {
     static var height: CGFloat = .heightSingleLineCell

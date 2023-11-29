@@ -1,8 +1,8 @@
 import UIKit
 import SnapKit
-import ComponentKit
+
 import ThemeKit
-import HUD
+
 
 class IndicatorAdviceCell: BaseThemeCell {
     static let height: CGFloat = 229

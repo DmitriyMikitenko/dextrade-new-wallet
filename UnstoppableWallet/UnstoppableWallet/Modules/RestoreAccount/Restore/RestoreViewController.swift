@@ -5,7 +5,7 @@ import RxSwift
 import RxCocoa
 import SectionsTableView
 import SnapKit
-import ComponentKit
+
 import UIExtensions
 
 class RestoreViewController: KeyboardAwareViewController {

@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 import ThemeKit
 import SectionsTableView
-import ComponentKit
+
 
 class PublicKeysViewController: ThemeViewController {
     private let viewModel: PublicKeysViewModel

@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 import ThemeKit
 import SnapKit
-import ComponentKit
+
 import RxSwift
 import RxCocoa
 

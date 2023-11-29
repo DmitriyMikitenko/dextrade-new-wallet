@@ -1,6 +1,6 @@
 import Foundation
 import UIKit
-import ComponentKit
+
 import ThemeKit
 
 class TokenSelectView: UIView {

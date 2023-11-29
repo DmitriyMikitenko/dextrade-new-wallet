@@ -3,7 +3,7 @@ import ThemeKit
 import RxSwift
 import RxCocoa
 import SectionsTableView
-import ComponentKit
+
 
 class UniswapSettingsDataSource: ISwapSettingsDataSource {
     private let disposeBag = DisposeBag()

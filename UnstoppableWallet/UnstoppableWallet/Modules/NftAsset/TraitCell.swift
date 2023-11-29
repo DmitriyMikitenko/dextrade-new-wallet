@@ -1,6 +1,6 @@
 import UIKit
 import ThemeKit
-import ComponentKit
+
 
 class TraitCell: UICollectionViewCell {
     private static let horizontalPadding: CGFloat = .margin16

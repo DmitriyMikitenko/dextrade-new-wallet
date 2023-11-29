@@ -1,7 +1,7 @@
 import UIKit
 import ThemeKit
 import SnapKit
-import ComponentKit
+
 import CollectionViewCenteredFlowLayout
 
 class BackupMnemonicWordsCell: UITableViewCell {

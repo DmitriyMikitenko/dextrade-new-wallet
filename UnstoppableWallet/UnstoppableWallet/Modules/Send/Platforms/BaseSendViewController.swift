@@ -4,7 +4,7 @@ import SnapKit
 import SectionsTableView
 import RxSwift
 import RxCocoa
-import ComponentKit
+
 
 class BaseSendViewController: ThemeViewController, SectionsDataSource {
     private let disposeBag = DisposeBag()

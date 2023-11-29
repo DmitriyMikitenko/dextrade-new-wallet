@@ -1,6 +1,6 @@
 import UIKit
-import HUD
-import ComponentKit
+
+
 
 class FeeSliderWrapper: UIView {
     private let slider = FeeSlider()

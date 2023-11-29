@@ -1,5 +1,5 @@
 import UIKit
-import ComponentKit
+
 
 class NftAssetImageCell: UITableViewCell {
     private static let horizontalMargin: CGFloat = .margin16

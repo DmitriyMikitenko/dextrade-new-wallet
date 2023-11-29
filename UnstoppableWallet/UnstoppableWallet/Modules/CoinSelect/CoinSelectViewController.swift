@@ -5,7 +5,7 @@ import SnapKit
 import ThemeKit
 import RxSwift
 import MarketKit
-import ComponentKit
+
 import Alamofire
 
 class CoinSelectViewController: ThemeSearchViewController {

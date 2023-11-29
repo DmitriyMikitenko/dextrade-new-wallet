@@ -4,8 +4,8 @@ import ThemeKit
 import SnapKit
 import RxSwift
 import RxCocoa
-import HUD
-import ComponentKit
+
+
 
 class CoinPageViewController: ThemeViewController {
     private let viewModel: CoinPageViewModel

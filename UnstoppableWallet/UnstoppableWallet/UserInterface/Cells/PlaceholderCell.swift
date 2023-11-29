@@ -1,7 +1,7 @@
 import UIKit
 import SnapKit
 import ThemeKit
-import ComponentKit
+
 
 class PlaceholderCell: BaseThemeCell {
     private let placeholderView = PlaceholderView()

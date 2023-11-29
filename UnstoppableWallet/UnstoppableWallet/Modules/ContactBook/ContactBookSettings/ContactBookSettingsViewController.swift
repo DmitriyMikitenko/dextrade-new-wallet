@@ -2,7 +2,7 @@ import UIKit
 import UniformTypeIdentifiers
 import SectionsTableView
 import ThemeKit
-import ComponentKit
+
 import RxSwift
 
 class ContactBookSettingsViewController: ThemeViewController {

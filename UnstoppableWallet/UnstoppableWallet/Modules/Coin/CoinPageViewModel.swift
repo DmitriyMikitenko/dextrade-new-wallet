@@ -2,7 +2,7 @@ import Foundation
 import RxSwift
 import RxRelay
 import RxCocoa
-import ComponentKit
+
 
 class CoinPageViewModel {
     private let service: CoinPageService

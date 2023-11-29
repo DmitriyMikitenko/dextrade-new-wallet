@@ -1,6 +1,6 @@
 import UIKit
 import ThemeKit
-import ComponentKit
+
 import UIExtensions
 import SnapKit
 import MarketKit

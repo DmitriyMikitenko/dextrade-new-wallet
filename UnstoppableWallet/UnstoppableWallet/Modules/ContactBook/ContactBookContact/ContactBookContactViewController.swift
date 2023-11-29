@@ -3,7 +3,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 import SectionsTableView
-import ComponentKit
+
 import ThemeKit
 
 class ContactBookContactViewController: KeyboardAwareViewController {

@@ -2,7 +2,7 @@ import UIKit
 import MessageUI
 import SnapKit
 import ThemeKit
-import ComponentKit
+
 
 class LaunchErrorViewController: ThemeViewController {
     private let error: Error

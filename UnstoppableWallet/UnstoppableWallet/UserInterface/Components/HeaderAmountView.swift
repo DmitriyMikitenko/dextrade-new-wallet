@@ -1,7 +1,7 @@
 import UIKit
 import SnapKit
 import ThemeKit
-import ComponentKit
+
 
 class HeaderAmountView: UIView {
     static let height: CGFloat = 131

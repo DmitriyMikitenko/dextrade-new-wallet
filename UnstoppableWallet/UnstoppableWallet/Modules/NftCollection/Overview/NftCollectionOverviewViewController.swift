@@ -1,5 +1,5 @@
-import ComponentKit
-import HUD
+
+
 import RxCocoa
 import RxSwift
 import SectionsTableView
@@ -13,7 +13,7 @@ class NftCollectionOverviewViewController: ThemeViewController {
     private let disposeBag = DisposeBag()
 
     private let tableView = SectionsTableView(style: .grouped)
-    private let spinner = HUDActivityView.create(with: .medium24)
+    private let spinner = HUDActivityView.create(with: ActivityIndicatorStyle.medium24)
     private let errorView = PlaceholderViewModule.reachabilityView()
     private let descriptionTextCell = ReadMoreTextCell()
 

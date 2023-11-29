@@ -2,7 +2,7 @@ import UIKit
 import ThemeKit
 import SnapKit
 import SectionsTableView
-import ComponentKit
+
 
 class EvmAddressViewController: ThemeViewController {
     private let viewModel: EvmAddressViewModel

@@ -1,5 +1,5 @@
 import UIKit
-import ComponentKit
+
 
 class WalletTokenBalanceCustomAmountCell: BaseSelectableThemeCell {
 

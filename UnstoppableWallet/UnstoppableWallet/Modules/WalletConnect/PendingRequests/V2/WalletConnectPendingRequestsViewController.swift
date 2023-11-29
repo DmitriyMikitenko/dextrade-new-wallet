@@ -2,7 +2,7 @@ import UIKit
 import SectionsTableView
 import ThemeKit
 import RxSwift
-import ComponentKit
+
 
 class WalletConnectPendingRequestsViewController: ThemeViewController {
     private let viewModel: WalletConnectPendingRequestsViewModel

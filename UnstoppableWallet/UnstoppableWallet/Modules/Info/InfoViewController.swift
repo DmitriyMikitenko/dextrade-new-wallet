@@ -1,7 +1,7 @@
 import UIKit
 import SectionsTableView
 import ThemeKit
-import ComponentKit
+
 
 class InfoViewController: ThemeViewController {
     private let viewItems: [InfoModule.ViewItem]

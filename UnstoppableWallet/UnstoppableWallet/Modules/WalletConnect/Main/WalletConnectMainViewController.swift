@@ -3,10 +3,10 @@ import ThemeKit
 import RxSwift
 import RxCocoa
 import UIExtensions
-import HUD
+
 import SectionsTableView
 import SnapKit
-import ComponentKit
+
 
 class WalletConnectMainViewController: ThemeViewController {
     private let viewModel: WalletConnectMainViewModel

@@ -1,6 +1,6 @@
 import UIKit
 import ThemeKit
-import ComponentKit
+
 
 class CheckboxCell: BaseSelectableThemeCell {
     private let checkBoxView = CheckboxView()

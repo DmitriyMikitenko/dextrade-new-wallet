@@ -1,7 +1,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
-import ComponentKit
+
 import ThemeKit
 
 protocol IFeeViewModel {

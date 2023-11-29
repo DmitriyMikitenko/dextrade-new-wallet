@@ -1,7 +1,7 @@
 import UIKit
 import CurrencyKit
 import MarketKit
-import ComponentKit
+
 
 class TransactionsViewItemFactory {
     private let evmLabelManager: EvmLabelManager

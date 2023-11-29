@@ -3,16 +3,16 @@ import SnapKit
 import RxSwift
 import RxCocoa
 import ThemeKit
-import ComponentKit
+
 import SectionsTableView
-import HUD
+
 
 class NftCollectionAssetsViewController: ThemeViewController {
     private let viewModel: NftCollectionAssetsViewModel
     private let disposeBag = DisposeBag()
 
     private let tableView = SectionsTableView(style: .plain)
-    private let spinner = HUDActivityView.create(with: .medium24)
+    private let spinner = HUDActivityView.create(with: ActivityIndicatorStyle.medium24)
     private let errorView = PlaceholderViewModule.reachabilityView()
 
     weak var parentNavigationController: UINavigationController?

@@ -1,6 +1,6 @@
 import UIKit
 import SectionsTableView
-import ComponentKit
+
 
 class NftCollectionCellFactory: NftAssetCellFactory {
     private let providerCollectionUid: String

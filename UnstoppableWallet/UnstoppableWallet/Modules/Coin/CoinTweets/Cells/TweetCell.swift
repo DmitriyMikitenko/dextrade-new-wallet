@@ -1,12 +1,12 @@
 import UIKit
-import ComponentKit
+
 
 class TweetCell: BaseSelectableThemeCell {
     private static let bodyFont: UIFont = .subhead2
     private static let dateFont: UIFont = .micro
     private static let headerHeight: CGFloat = 37
 
-    private let stackView = UIStackView()
+    private let baseStackView = UIStackView()
 
     private let titleLabel = UILabel()
     private let subTitleLabel = UILabel()
@@ -21,17 +21,17 @@ class TweetCell: BaseSelectableThemeCell {
     override init(style: CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
 
-        wrapperView.addSubview(stackView)
-        stackView.snp.makeConstraints { maker in
+        wrapperView.addSubview(baseStackView)
+        baseStackView.snp.makeConstraints { maker in
             maker.leading.top.trailing.equalToSuperview().inset(CGFloat.margin16)
         }
 
-        stackView.distribution = .equalSpacing
-        stackView.axis = .vertical
-        stackView.spacing = .margin12
+        baseStackView.distribution = .equalSpacing
+        baseStackView.axis = .vertical
+        baseStackView.spacing = .margin12
 
         let headerView = UIView()
-        stackView.addArrangedSubview(headerView)
+        baseStackView.addArrangedSubview(headerView)
         headerView.snp.makeConstraints { maker in
             maker.height.equalTo(Self.headerHeight)
         }
@@ -66,13 +66,13 @@ class TweetCell: BaseSelectableThemeCell {
         subTitleLabel.font = .caption
         subTitleLabel.textColor = .themeGray
 
-        stackView.addArrangedSubview(textView)
+        baseStackView.addArrangedSubview(textView)
         textView.isUserInteractionEnabled = false
 
-        stackView.addArrangedSubview(attachmentView)
-        stackView.addArrangedSubview(referencedTweetView)
+        baseStackView.addArrangedSubview(attachmentView)
+        baseStackView.addArrangedSubview(referencedTweetView)
 
-        stackView.addArrangedSubview(dateLabel)
+        baseStackView.addArrangedSubview(dateLabel)
         dateLabel.snp.makeConstraints { maker in
             maker.height.equalTo(Self.dateFont.lineHeight)
         }

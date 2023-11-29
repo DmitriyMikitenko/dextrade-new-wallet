@@ -3,7 +3,7 @@ import ThemeKit
 import SnapKit
 import RxSwift
 import RxCocoa
-import ComponentKit
+
 
 class SwapRevokeConfirmationViewController: SendEvmTransactionViewController {
     private let approveButton = PrimaryButton()

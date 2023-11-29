@@ -1,7 +1,7 @@
 import UIKit
 import ThemeKit
 import SectionsTableView
-import ComponentKit
+
 
 class MultiSelectorViewController: ThemeViewController {
     private let viewItems: [SelectorModule.ViewItem]

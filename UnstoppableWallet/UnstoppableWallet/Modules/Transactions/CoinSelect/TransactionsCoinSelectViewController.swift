@@ -3,7 +3,7 @@ import UIKit
 import Alamofire
 import RxSwift
 import SnapKit
-import ComponentKit
+
 import MarketKit
 import ThemeKit
 import SectionsTableView

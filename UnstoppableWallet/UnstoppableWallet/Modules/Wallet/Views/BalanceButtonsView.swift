@@ -2,7 +2,7 @@ import UIKit
 import UIExtensions
 import SnapKit
 import ThemeKit
-import ComponentKit
+
 
 class BalanceButtonsView: UIView {
     public static let height: CGFloat = 70

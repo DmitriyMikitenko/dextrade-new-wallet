@@ -1,7 +1,7 @@
 import UIKit
 import ThemeKit
 import SnapKit
-import ComponentKit
+
 
 class FilterCard: UICollectionViewCell {
     private static let titleFont: UIFont = .subhead1

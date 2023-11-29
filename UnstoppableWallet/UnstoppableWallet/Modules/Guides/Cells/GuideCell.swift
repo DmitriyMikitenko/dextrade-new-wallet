@@ -2,7 +2,7 @@ import UIKit
 import ThemeKit
 import SnapKit
 import Kingfisher
-import ComponentKit
+
 
 class GuideCell: UITableViewCell {
     private static let cardTopMargin: CGFloat = 0

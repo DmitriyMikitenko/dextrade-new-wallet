@@ -7,7 +7,7 @@ import RxCocoa
 import EvmKit
 import Kingfisher
 import UIExtensions
-import ComponentKit
+
 
 class SendEip721ViewController: KeyboardAwareViewController {
     private let evmKitWrapper: EvmKitWrapper

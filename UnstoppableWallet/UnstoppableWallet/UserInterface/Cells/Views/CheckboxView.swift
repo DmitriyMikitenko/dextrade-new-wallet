@@ -1,6 +1,6 @@
 import UIKit
 import ThemeKit
-import ComponentKit
+
 
 class CheckboxView: UIView {
     private static let checkBoxLeadingMargin: CGFloat = .margin16

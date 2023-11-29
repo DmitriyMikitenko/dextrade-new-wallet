@@ -1,7 +1,7 @@
 import UIKit
 import SectionsTableView
 import ThemeKit
-import ComponentKit
+
 import Combine
 
 class PersonalSupportViewController: KeyboardAwareViewController {

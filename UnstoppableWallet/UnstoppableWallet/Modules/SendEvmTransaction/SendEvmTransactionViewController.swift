@@ -4,7 +4,7 @@ import SnapKit
 import SectionsTableView
 import RxSwift
 import RxCocoa
-import ComponentKit
+
 import Foundation
 import MarketKit
 

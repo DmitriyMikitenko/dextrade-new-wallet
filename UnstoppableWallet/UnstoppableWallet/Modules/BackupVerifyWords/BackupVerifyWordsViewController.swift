@@ -4,7 +4,7 @@ import SnapKit
 import RxSwift
 import RxCocoa
 import SectionsTableView
-import ComponentKit
+
 
 class BackupVerifyWordsViewController: ThemeViewController {
     private let viewModel: BackupVerifyWordsViewModel

@@ -1,7 +1,7 @@
 import UIKit
 import SnapKit
 import ThemeKit
-import ComponentKit
+
 
 class WalletHeaderCell: UITableViewCell {
     internal var amountView = HeaderAmountView()

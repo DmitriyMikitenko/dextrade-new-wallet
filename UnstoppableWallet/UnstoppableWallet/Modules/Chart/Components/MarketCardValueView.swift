@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 
 import ThemeKit
-import ComponentKit
+
 
 class MarketCardValueView: UIView {
     private static let font: UIFont = .subhead1

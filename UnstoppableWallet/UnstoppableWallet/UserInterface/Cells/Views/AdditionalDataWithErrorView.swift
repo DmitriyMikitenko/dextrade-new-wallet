@@ -1,5 +1,5 @@
 import UIKit
-import HUD
+
 
 class AdditionalDataWithErrorView: UIView {
     private let additionalDataView = AdditionalDataView()

@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import HUD
+
 
 class FeeSliderValueView: UIView {
     private let feeRateLabel = UILabel()

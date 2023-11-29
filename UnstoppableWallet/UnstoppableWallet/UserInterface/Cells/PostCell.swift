@@ -1,5 +1,5 @@
 import UIKit
-import ComponentKit
+
 
 class PostCell: BaseSelectableThemeCell {
     static let height: CGFloat = 140

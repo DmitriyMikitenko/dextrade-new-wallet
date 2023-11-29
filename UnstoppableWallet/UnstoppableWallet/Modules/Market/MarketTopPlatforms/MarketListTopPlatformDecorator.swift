@@ -1,7 +1,7 @@
 import Foundation
 import CurrencyKit
 import MarketKit
-import ComponentKit
+
 
 protocol IMarketListTopPlatformDecoratorService {
     var currency: Currency { get }

@@ -3,7 +3,7 @@ import SnapKit
 import SectionsTableView
 import RxSwift
 import ThemeKit
-import ComponentKit
+
 
 class SendConfirmationViewController: ThemeViewController, SectionsDataSource {
     private let disposeBag = DisposeBag()

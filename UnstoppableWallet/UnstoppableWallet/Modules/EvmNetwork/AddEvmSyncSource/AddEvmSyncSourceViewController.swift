@@ -5,7 +5,7 @@ import SnapKit
 import SectionsTableView
 import RxSwift
 import RxCocoa
-import ComponentKit
+
 import UIExtensions
 
 class AddEvmSyncSourceViewController: KeyboardAwareViewController {

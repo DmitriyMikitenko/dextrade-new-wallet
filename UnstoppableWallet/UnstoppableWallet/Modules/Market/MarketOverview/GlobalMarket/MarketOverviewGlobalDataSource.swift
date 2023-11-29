@@ -3,7 +3,7 @@ import RxSwift
 import RxCocoa
 import SectionsTableView
 
-import ComponentKit
+
 
 class MarketOverviewGlobalDataSource {
     private let viewModel: MarketOverviewGlobalViewModel

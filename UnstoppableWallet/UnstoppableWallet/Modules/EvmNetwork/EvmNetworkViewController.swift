@@ -2,7 +2,7 @@ import UIKit
 import SectionsTableView
 import ThemeKit
 import RxSwift
-import ComponentKit
+
 
 class EvmNetworkViewController: ThemeViewController {
     private let viewModel: EvmNetworkViewModel

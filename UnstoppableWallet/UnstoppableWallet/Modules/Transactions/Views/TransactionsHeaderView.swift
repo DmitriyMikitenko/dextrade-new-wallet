@@ -3,7 +3,7 @@ import SnapKit
 import RxSwift
 import UIExtensions
 import ThemeKit
-import ComponentKit
+
 import MarketKit
 
 class TransactionsHeaderView: UIView {

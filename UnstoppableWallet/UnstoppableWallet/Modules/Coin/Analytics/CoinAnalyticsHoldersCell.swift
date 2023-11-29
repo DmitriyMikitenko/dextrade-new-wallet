@@ -1,7 +1,7 @@
 import UIKit
 import SnapKit
 import ThemeKit
-import ComponentKit
+
 
 
 class CoinAnalyticsHoldersCell: BaseThemeCell {

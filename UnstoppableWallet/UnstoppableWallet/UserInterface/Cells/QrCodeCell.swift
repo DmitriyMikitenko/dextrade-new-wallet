@@ -1,7 +1,7 @@
 import UIKit
 import SnapKit
 import ThemeKit
-import ComponentKit
+
 
 class QrCodeCell: UITableViewCell {
     private static let horizontalMargin: CGFloat = .margin16

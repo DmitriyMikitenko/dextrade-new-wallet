@@ -2,7 +2,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 import MarketKit
-import ComponentKit
+
 
 class BaseTransactionsViewModel {
     private let service: BaseTransactionsService

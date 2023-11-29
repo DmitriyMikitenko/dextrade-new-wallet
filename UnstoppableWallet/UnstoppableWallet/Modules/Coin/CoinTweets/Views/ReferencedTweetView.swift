@@ -1,5 +1,5 @@
 import UIKit
-import ComponentKit
+
 
 class ReferencedTweetView: UIView {
     private static let titleFont: UIFont = .caption

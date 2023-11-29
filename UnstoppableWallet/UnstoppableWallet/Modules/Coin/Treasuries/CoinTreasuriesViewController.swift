@@ -5,15 +5,15 @@ import RxCocoa
 import SnapKit
 import ThemeKit
 import SectionsTableView
-import ComponentKit
-import HUD
+
+
 
 class CoinTreasuriesViewController: ThemeViewController {
     private let viewModel: CoinTreasuriesViewModel
     private let disposeBag = DisposeBag()
 
     private let tableView = SectionsTableView(style: .plain)
-    private let spinner = HUDActivityView.create(with: .medium24)
+    private let spinner = HUDActivityView.create(with: ActivityIndicatorStyle.medium24)
     private let errorView = PlaceholderViewModule.reachabilityView()
 
     private var viewItems: [CoinTreasuriesViewModel.ViewItem]?

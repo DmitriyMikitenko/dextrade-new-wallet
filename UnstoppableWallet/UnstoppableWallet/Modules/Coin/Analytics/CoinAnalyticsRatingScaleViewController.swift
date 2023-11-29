@@ -2,7 +2,7 @@ import UIKit
 import ThemeKit
 import SectionsTableView
 import SnapKit
-import ComponentKit
+
 
 class CoinAnalyticsRatingScaleViewController: ThemeViewController {
     private let _title: String

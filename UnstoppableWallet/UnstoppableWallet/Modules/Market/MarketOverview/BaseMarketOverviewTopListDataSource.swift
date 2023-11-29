@@ -3,7 +3,7 @@ import RxSwift
 import RxCocoa
 import SectionsTableView
 
-import ComponentKit
+
 
 protocol IBaseMarketOverviewTopListViewModel {
     var listViewItemsDriver: Driver<[MarketModule.ListViewItem]?> { get }

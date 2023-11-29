@@ -2,8 +2,8 @@ import UIKit
 import RxSwift
 import ThemeKit
 import SectionsTableView
-import ComponentKit
-import HUD
+
+
 
 class CoinReportsViewController: ThemeViewController {
     private let viewModel: CoinReportsViewModel
@@ -11,7 +11,7 @@ class CoinReportsViewController: ThemeViewController {
     private let disposeBag = DisposeBag()
 
     private let tableView = SectionsTableView(style: .grouped)
-    private let spinner = HUDActivityView.create(with: .medium24)
+    private let spinner = HUDActivityView.create(with: ActivityIndicatorStyle.medium24)
     private let errorView = PlaceholderViewModule.reachabilityView()
 
     private var viewItems: [CoinReportsViewModel.ViewItem]?

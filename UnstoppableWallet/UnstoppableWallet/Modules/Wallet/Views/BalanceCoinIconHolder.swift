@@ -1,7 +1,7 @@
 import UIKit
 import ThemeKit
-import HUD
-import ComponentKit
+
+
 
 class BalanceCoinIconHolder: UIView {
     private let coinIconImageView = UIImageView()

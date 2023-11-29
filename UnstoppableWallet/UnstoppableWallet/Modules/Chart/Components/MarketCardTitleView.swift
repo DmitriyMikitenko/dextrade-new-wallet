@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 
 import ThemeKit
-import ComponentKit
+
 
 class MarketCardTitleView: UIView {
     private static let font: UIFont = .caption

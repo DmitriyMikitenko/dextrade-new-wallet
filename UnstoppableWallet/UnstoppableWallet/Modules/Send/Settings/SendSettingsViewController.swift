@@ -4,7 +4,7 @@ import SnapKit
 import SectionsTableView
 import RxSwift
 import RxCocoa
-import ComponentKit
+
 
 protocol ISendSettingsDataSource: AnyObject {
     var tableView: SectionsTableView? { get set }

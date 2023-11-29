@@ -2,7 +2,7 @@ import UIKit
 import ThemeKit
 import RxSwift
 import RxCocoa
-import ComponentKit
+
 
 class UnlinkWatchViewController: ThemeActionSheetController {
     private let viewModel: UnlinkViewModel

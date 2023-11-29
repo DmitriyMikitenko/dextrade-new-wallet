@@ -2,7 +2,7 @@ import UIKit
 import UIExtensions
 import ThemeKit
 import SnapKit
-import ComponentKit
+
 
 protocol IMarketMultiSortHeaderViewModel {
     var sortItems: [String] { get }

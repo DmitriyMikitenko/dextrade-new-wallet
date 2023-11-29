@@ -3,7 +3,7 @@ import SnapKit
 import ThemeKit
 import RxSwift
 import RxCocoa
-import ComponentKit
+
 
 class PerformanceTableViewCell: BaseThemeCell {
     private let disposeBag = DisposeBag()

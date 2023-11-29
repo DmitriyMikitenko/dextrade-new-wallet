@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 
 import ThemeKit
-import ComponentKit
+
 
 class MarketCardView: UIView {
     static let height: CGFloat = 109

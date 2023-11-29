@@ -1,7 +1,7 @@
 import UIKit
 import ThemeKit
 import SnapKit
-import ComponentKit
+
 
 class WalletTokenCell: BaseSelectableThemeCell {
     static let height = BalanceTopView.height

@@ -1,7 +1,7 @@
 import UIKit
 import ThemeKit
 import SnapKit
-import ComponentKit
+
 
 class ManageBarButtonView: UIView {
     private let button = UIButton()

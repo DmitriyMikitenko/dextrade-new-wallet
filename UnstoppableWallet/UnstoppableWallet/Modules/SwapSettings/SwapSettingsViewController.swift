@@ -1,11 +1,11 @@
 import UIKit
 import ThemeKit
 import UniswapKit
-import HUD
+
 import RxSwift
 import RxCocoa
 import SectionsTableView
-import ComponentKit
+
 import UIExtensions
 
 class SwapSettingsViewController: KeyboardAwareViewController {

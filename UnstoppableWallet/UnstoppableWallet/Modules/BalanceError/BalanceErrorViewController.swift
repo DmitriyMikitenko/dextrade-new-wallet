@@ -2,7 +2,7 @@ import UIKit
 import ThemeKit
 import SnapKit
 import MessageUI
-import ComponentKit
+
 import RxSwift
 import MarketKit
 

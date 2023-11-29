@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-import ComponentKit
+
 
 class MarketOverviewHeaderCell: BaseThemeCell {
     private let leftImage = ImageComponent(size: .iconSize24)

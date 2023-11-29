@@ -5,7 +5,7 @@ import RxCocoa
 import MarketKit
 
 import CurrencyKit
-import HUD
+
 import Combine
 
 class CoinChartViewModel: ObservableObject {

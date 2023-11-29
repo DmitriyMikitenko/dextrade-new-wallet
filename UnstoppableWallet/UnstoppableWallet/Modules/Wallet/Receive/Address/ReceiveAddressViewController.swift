@@ -2,16 +2,16 @@ import Combine
 import UIKit
 import SnapKit
 import ThemeKit
-import ComponentKit
+
 import SectionsTableView
-import HUD
+
 
 class ReceiveAddressViewController<Service: IReceiveAddressService, Factory: IReceiveAddressViewItemFactory>: ThemeViewController where Service.ServiceItem == Factory.Item {
     private let viewModel: ReceiveAddressViewModel<Service, Factory>
     private var cancellables = Set<AnyCancellable>()
 
     private let tableView = SectionsTableView(style: .grouped)
-    private let spinner = HUDActivityView.create(with: .medium24)
+    private let spinner = HUDActivityView.create(with: ActivityIndicatorStyle.medium24)
     private let failedView = PlaceholderView()
     private var failedRetryButton: UIButton?
     private let buttonsHolder = BottomGradientHolder()

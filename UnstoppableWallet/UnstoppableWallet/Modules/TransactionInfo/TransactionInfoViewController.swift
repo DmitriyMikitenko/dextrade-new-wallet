@@ -2,7 +2,7 @@ import UIKit
 import ThemeKit
 import SectionsTableView
 import CurrencyKit
-import ComponentKit
+
 import RxSwift
 import SafariServices
 

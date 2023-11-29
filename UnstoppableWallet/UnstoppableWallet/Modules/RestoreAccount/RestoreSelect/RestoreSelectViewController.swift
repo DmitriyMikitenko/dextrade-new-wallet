@@ -4,7 +4,7 @@ import ThemeKit
 import SectionsTableView
 import RxSwift
 import RxCocoa
-import ComponentKit
+
 
 class RestoreSelectViewController: CoinToggleViewController {
     private let viewModel: RestoreSelectViewModel

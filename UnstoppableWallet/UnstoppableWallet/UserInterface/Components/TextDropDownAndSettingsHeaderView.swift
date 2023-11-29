@@ -1,7 +1,7 @@
 import UIKit
 import ThemeKit
 import SnapKit
-import ComponentKit
+
 
 class TextDropDownAndSettingsHeaderView: UITableViewHeaderFooterView {
     static let height: CGFloat = TextDropDownAndSettingsView.height

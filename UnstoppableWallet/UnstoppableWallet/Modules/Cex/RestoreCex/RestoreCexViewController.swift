@@ -1,6 +1,6 @@
 import Foundation
 import UIKit
-import ComponentKit
+
 import SectionsTableView
 import ThemeKit
 

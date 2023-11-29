@@ -1,8 +1,8 @@
 import UIKit
 import ThemeKit
 import SnapKit
-import ComponentKit
-import HUD
+
+
 
 class WalletHeaderView: UITableViewHeaderFooterView {
     static var height: CGFloat = TextDropDownAndSettingsView.height

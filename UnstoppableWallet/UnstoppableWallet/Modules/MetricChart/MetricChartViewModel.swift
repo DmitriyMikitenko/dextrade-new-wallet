@@ -6,7 +6,7 @@ import RxCocoa
 import MarketKit
 
 import CurrencyKit
-import HUD
+
 
 class MetricChartViewModel {
     private let service: MetricChartService

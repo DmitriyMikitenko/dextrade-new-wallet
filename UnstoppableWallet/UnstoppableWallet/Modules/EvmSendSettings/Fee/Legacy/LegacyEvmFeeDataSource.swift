@@ -4,7 +4,7 @@ import SnapKit
 import SectionsTableView
 import RxSwift
 import RxCocoa
-import ComponentKit
+
 
 class LegacyEvmFeeDataSource {
     private let viewModel: LegacyEvmFeeViewModel

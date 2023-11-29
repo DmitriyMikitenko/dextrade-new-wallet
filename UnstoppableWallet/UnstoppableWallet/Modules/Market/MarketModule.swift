@@ -3,7 +3,7 @@ import UIKit
 import ThemeKit
 import CurrencyKit
 import MarketKit
-import ComponentKit
+
 import StorageKit
 import SectionsTableView
 import Kingfisher

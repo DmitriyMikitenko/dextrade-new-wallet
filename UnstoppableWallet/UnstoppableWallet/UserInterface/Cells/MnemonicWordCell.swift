@@ -1,5 +1,5 @@
 import UIKit
-import ComponentKit
+
 
 class MnemonicWordCell: UICollectionViewCell {
     private static let indexFont: UIFont = .subhead1

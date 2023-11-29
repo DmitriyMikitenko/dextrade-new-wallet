@@ -1,7 +1,7 @@
 import UIKit
 import ThemeKit
 import SnapKit
-import ComponentKit
+
 
 class BalanceButtonsCell: UITableViewCell {
     static let height = BalanceButtonsView.height

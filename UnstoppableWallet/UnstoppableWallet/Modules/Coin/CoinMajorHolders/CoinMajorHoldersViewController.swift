@@ -3,10 +3,10 @@ import UIKit
 import ThemeKit
 import SnapKit
 import SectionsTableView
-import ComponentKit
+
 import RxSwift
 import RxCocoa
-import HUD
+
 
 class CoinMajorHoldersViewController: ThemeViewController {
     private let viewModel: CoinMajorHoldersViewModel

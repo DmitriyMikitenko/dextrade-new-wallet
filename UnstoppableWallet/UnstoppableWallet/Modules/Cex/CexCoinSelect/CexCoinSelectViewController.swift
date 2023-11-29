@@ -2,7 +2,7 @@ import Combine
 import UIKit
 import SnapKit
 import ThemeKit
-import ComponentKit
+
 import SectionsTableView
 
 class CexCoinSelectViewController: ThemeSearchViewController {

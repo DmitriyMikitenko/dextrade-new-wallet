@@ -3,7 +3,7 @@ import SnapKit
 import ThemeKit
 import SectionsTableView
 
-import ComponentKit
+
 import RxSwift
 
 class MarketGlobalMetricViewController: MarketListViewController {

@@ -1,6 +1,6 @@
 import Foundation
 import UIKit
-import ComponentKit
+
 
 class SelectorButton: SecondaryButton {
     private var items = [String]()

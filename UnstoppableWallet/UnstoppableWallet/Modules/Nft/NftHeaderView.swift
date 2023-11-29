@@ -3,8 +3,8 @@ import RxSwift
 import RxCocoa
 import ThemeKit
 import SnapKit
-import ComponentKit
-import HUD
+
+
 
 class NftHeaderView: UITableViewHeaderFooterView {
     static var height: CGFloat = HeaderAmountView.height + .heightCell48

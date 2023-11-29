@@ -4,7 +4,7 @@ import ThemeKit
 import SectionsTableView
 import RxSwift
 import RxCocoa
-import ComponentKit
+
 import UIExtensions
 
 class ChooseWatchViewController: CoinToggleViewController {

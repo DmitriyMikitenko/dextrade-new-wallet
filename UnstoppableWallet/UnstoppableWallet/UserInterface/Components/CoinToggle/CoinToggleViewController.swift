@@ -4,7 +4,7 @@ import Alamofire
 import RxSwift
 import RxCocoa
 import SnapKit
-import ComponentKit
+
 import MarketKit
 import SectionsTableView
 import ThemeKit

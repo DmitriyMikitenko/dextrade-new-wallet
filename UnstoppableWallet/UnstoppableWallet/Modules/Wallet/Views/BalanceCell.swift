@@ -1,7 +1,7 @@
 import UIKit
 import ThemeKit
 import SnapKit
-import ComponentKit
+
 
 class BalanceCell: UITableViewCell {
     private static let margins = UIEdgeInsets(top: .margin8, left: .margin16, bottom: 0, right: .margin16)

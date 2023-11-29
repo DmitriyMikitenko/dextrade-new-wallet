@@ -4,7 +4,7 @@ import SectionsTableView
 import SnapKit
 import RxSwift
 import RxCocoa
-import ComponentKit
+
 
 class SwitchAccountViewController: ThemeActionSheetController {
     private let viewModel: SwitchAccountViewModel

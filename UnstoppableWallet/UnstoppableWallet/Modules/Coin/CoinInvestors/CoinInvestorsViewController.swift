@@ -5,8 +5,8 @@ import RxCocoa
 import SnapKit
 import ThemeKit
 import SectionsTableView
-import ComponentKit
-import HUD
+
+
 
 class CoinInvestorsViewController: ThemeViewController {
     private let viewModel: CoinInvestorsViewModel

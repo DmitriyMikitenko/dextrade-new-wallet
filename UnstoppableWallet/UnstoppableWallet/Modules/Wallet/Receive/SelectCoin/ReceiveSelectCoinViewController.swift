@@ -4,7 +4,7 @@ import SectionsTableView
 import SnapKit
 import ThemeKit
 import MarketKit
-import ComponentKit
+
 import Alamofire
 
 class ReceiveSelectCoinViewController: ThemeSearchViewController {

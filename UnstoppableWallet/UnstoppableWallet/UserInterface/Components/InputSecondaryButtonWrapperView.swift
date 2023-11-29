@@ -1,7 +1,7 @@
 import UIKit
 import ThemeKit
 import SnapKit
-import ComponentKit
+
 
 class InputSecondaryButtonWrapperView: UIView, ISizeAwareView {
     private let style: SecondaryButton.Style

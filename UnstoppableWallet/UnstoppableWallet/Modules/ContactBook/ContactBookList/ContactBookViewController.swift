@@ -3,7 +3,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 import SnapKit
-import ComponentKit
+
 import SectionsTableView
 import ThemeKit
 

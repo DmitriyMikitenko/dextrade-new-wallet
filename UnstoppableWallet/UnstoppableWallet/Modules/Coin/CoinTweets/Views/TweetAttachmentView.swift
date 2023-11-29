@@ -1,5 +1,5 @@
 import UIKit
-import ComponentKit
+
 
 class TweetAttachmentView: UIView {
     private static let imageAttachmentHeight: CGFloat = 180

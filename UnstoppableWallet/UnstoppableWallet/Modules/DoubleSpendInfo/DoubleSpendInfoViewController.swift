@@ -2,7 +2,7 @@ import UIKit
 import SnapKit
 import SectionsTableView
 import ThemeKit
-import ComponentKit
+
 
 class DoubleSpendInfoViewController: ThemeViewController {
     private let transactionHash: String

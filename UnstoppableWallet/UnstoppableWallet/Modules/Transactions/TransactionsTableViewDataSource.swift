@@ -3,7 +3,7 @@ import UIKit
 import SnapKit
 import RxSwift
 import ThemeKit
-import ComponentKit
+
 
 class TransactionsTableViewDataSource: NSObject {
     private let viewModel: BaseTransactionsViewModel
