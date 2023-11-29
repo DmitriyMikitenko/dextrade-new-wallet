@@ -1,7 +1,7 @@
 import UIKit
 import RxSwift
 
-import LanguageKit
+
 import MarketKit
 
 class CoinProChartModule {

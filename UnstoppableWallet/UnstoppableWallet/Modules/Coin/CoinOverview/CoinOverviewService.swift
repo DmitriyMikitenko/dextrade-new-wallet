@@ -3,7 +3,7 @@ import RxSwift
 import RxCocoa
 import MarketKit
 import CurrencyKit
-import LanguageKit
+
 import HsExtensions
 
 class CoinOverviewService {

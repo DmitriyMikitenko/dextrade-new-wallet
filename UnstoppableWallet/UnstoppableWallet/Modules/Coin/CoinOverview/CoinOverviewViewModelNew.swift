@@ -2,7 +2,7 @@ import Combine
 import CurrencyKit
 import Foundation
 import HsExtensions
-import LanguageKit
+
 import MarketKit
 
 class CoinOverviewViewModelNew: ObservableObject {

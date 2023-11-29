@@ -2,7 +2,7 @@ import CurrencyKit
 import Foundation
 import GRDB
 import HsToolKit
-import LanguageKit
+
 import MarketKit
 import StorageKit
 import ThemeKit
