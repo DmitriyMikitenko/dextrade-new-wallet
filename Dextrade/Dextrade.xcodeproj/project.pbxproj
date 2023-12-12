@@ -3793,7 +3793,6 @@
 		1A5640528EFD15137E218EA3 /* MainSettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSettingsViewModel.swift; sourceTree = "<group>"; };
 		1A5640B4F6298D9F326C5EDE /* MarketOverviewTopCoinsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketOverviewTopCoinsViewModel.swift; sourceTree = "<group>"; };
 		1A5641572B6E46E18B52A6A9 /* SecuritySettingsModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecuritySettingsModule.swift; sourceTree = "<group>"; };
-		1A5641679DC88BE355F0F3A0 /* Development.template.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Development.template.xcconfig; sourceTree = "<group>"; };
 		1A56417C27A95B429D9F2912 /* MarkdownContentProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownContentProvider.swift; sourceTree = "<group>"; };
 		1A5641A724199908970CFB54 /* MarketNftTopCollectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketNftTopCollectionsViewController.swift; sourceTree = "<group>"; };
 		1A5641CDB00EF52E18BF70F3 /* AppVersionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppVersionManager.swift; sourceTree = "<group>"; };
@@ -3807,7 +3806,6 @@
 		1A56432704A2E7A9BE78497B /* ReleaseNotesMarkdownConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseNotesMarkdownConfig.swift; sourceTree = "<group>"; };
 		1A56433D5D39CCA995F97777 /* Development.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		1A564342B778B822F3ED02E7 /* WalletConnectSignMessageRequestModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletConnectSignMessageRequestModule.swift; sourceTree = "<group>"; };
-		1A564370A637B30D34776F2A /* Production.template.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = file.template; path = Production.template.xcconfig; sourceTree = "<group>"; };
 		1A5643A672A508BC4CBCABDD /* NftCollectionsMultiSortHeaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NftCollectionsMultiSortHeaderViewModel.swift; sourceTree = "<group>"; };
 		1A5644074A3ACB1DFB63FF92 /* ReleaseNotesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseNotesService.swift; sourceTree = "<group>"; };
 		1A56443BF752CB6537E45F5A /* BlockchainSettingsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockchainSettingsStorage.swift; sourceTree = "<group>"; };
@@ -3970,8 +3968,8 @@
 		2FA5DF48D44BB409FB94CED9 /* UnknownSwapTransactionRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnknownSwapTransactionRecord.swift; sourceTree = "<group>"; };
 		2FA5DF5B8B69876A526CCDDD /* BinanceChainOutgoingTransactionRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinanceChainOutgoingTransactionRecord.swift; sourceTree = "<group>"; };
 		2FA5DFE7C4A198C235B2EAB5 /* TransactionAdapterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionAdapterManager.swift; sourceTree = "<group>"; };
-		3AB682A025BADC20002197A5 /* MarketDiscoveryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarketDiscoveryViewModel.swift; path = UnstoppableWallet/Modules/Market/MarketDiscovery/MarketDiscoveryViewModel.swift; sourceTree = SOURCE_ROOT; };
-		3AB682A125BADC20002197A5 /* MarketDiscoveryModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarketDiscoveryModule.swift; path = UnstoppableWallet/Modules/Market/MarketDiscovery/MarketDiscoveryModule.swift; sourceTree = SOURCE_ROOT; };
+		3AB682A025BADC20002197A5 /* MarketDiscoveryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarketDiscoveryViewModel.swift; path = Dextrade/Modules/Market/MarketDiscovery/MarketDiscoveryViewModel.swift; sourceTree = SOURCE_ROOT; };
+		3AB682A125BADC20002197A5 /* MarketDiscoveryModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarketDiscoveryModule.swift; path = Dextrade/Modules/Market/MarketDiscovery/MarketDiscoveryModule.swift; sourceTree = SOURCE_ROOT; };
 		3AB682BC25BADD97002197A5 /* MarketOverviewModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketOverviewModule.swift; sourceTree = "<group>"; };
 		3AF9F617253EF555000626A8 /* ZcashTransactionPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZcashTransactionPool.swift; sourceTree = "<group>"; };
 		3AF9F618253EF555000626A8 /* ZcashAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZcashAdapter.swift; sourceTree = "<group>"; };
@@ -4626,8 +4624,8 @@
 		D36DE0F3272FD92E000BC916 /* SwapSelectProviderModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapSelectProviderModule.swift; sourceTree = "<group>"; };
 		D36DE0F4272FD92F000BC916 /* SwapSelectProviderService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapSelectProviderService.swift; sourceTree = "<group>"; };
 		D36DE0F5272FD92F000BC916 /* SwapSelectProviderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapSelectProviderViewModel.swift; sourceTree = "<group>"; };
-		D38405CE218317DF007D50AD /* Unstoppable D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unstoppable D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D38406BE21831B3D007D50AD /* Unstoppable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unstoppable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38405CE218317DF007D50AD /* Dextrade_D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dextrade_D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38406BE21831B3D007D50AD /* Dextrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dextrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38406C3218327B1007D50AD /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
 		D38406C821832968007D50AD /* AppIconDev.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIconDev.xcassets; sourceTree = "<group>"; };
 		D3B476A321D0D64E008B0C3E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -6906,8 +6904,6 @@
 			children = (
 				50D05F9B249A22950067D28F /* Production.entitlements */,
 				50D05F9A249A228C0067D28F /* Development.entitlements */,
-				1A564370A637B30D34776F2A /* Production.template.xcconfig */,
-				1A5641679DC88BE355F0F3A0 /* Development.template.xcconfig */,
 				1A5648F3AB070B0ACB98C7EE /* Production.xcconfig */,
 				1A56433D5D39CCA995F97777 /* Development.xcconfig */,
 			);
@@ -7356,7 +7352,7 @@
 				ABC9AB313E49F27BBB0C9AED /* DataSources */,
 			);
 			name = Settings;
-			path = UnstoppableWallet/Modules/Coin/Indicators/Settings;
+			path = Dextrade/Modules/Coin/Indicators/Settings;
 			sourceTree = SOURCE_ROOT;
 		};
 		6BCD52F62A161F4100993F20 /* ICloud */ = {
@@ -7787,7 +7783,7 @@
 				A3FAF1072B17772E006FBB8B /* Classes */,
 			);
 			name = ModuleKit;
-			path = UnstoppableWallet/SupportingFiles/ModuleKit;
+			path = Dextrade/SupportingFiles/ModuleKit;
 			sourceTree = SOURCE_ROOT;
 		};
 		A3FAF1072B17772E006FBB8B /* Classes */ = {
@@ -8864,7 +8860,7 @@
 		D3285F3920BD158E00644076 = {
 			isa = PBXGroup;
 			children = (
-				D3285F4420BD158E00644076 /* UnstoppableWallet */,
+				D3285F4420BD158E00644076 /* Dextrade */,
 				D3285F4320BD158E00644076 /* Products */,
 				95AD93BB0A2D5F5C4A435252 /* Frameworks */,
 				3AAE9B3322CF48DA00FB065F /* Recovered References */,
@@ -8874,13 +8870,13 @@
 		D3285F4320BD158E00644076 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D38405CE218317DF007D50AD /* Unstoppable D.app */,
-				D38406BE21831B3D007D50AD /* Unstoppable.app */,
+				D38405CE218317DF007D50AD /* Dextrade_D.app */,
+				D38406BE21831B3D007D50AD /* Dextrade.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3285F4420BD158E00644076 /* UnstoppableWallet */ = {
+		D3285F4420BD158E00644076 /* Dextrade */ = {
 			isa = PBXGroup;
 			children = (
 				A3D00DB62B175A4500B1110A /* SupportingFiles */,
@@ -8901,7 +8897,7 @@
 				D3B62A9C20CA73A0005A9F80 /* Localizable.strings */,
 				11B351DF9138606BCB651646 /* BackCompatibility */,
 			);
-			path = UnstoppableWallet;
+			path = Dextrade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -8960,7 +8956,7 @@
 				A3FAF1BB2B17DBAC006FBB8B /* Kingfisher */,
 			);
 			productName = Wallet;
-			productReference = D38405CE218317DF007D50AD /* Unstoppable D.app */;
+			productReference = D38405CE218317DF007D50AD /* Dextrade_D.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D38405D021831B3D007D50AD /* Production */ = {
@@ -9018,7 +9014,7 @@
 				A3FAF1BD2B17DBCB006FBB8B /* Kingfisher */,
 			);
 			productName = Wallet;
-			productReference = D38406BE21831B3D007D50AD /* Unstoppable.app */;
+			productReference = D38406BE21831B3D007D50AD /* Dextrade.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -9041,7 +9037,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D3285F3D20BD158E00644076 /* Build configuration list for PBXProject "UnstoppableWallet" */;
+			buildConfigurationList = D3285F3D20BD158E00644076 /* Build configuration list for PBXProject "Dextrade" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -12245,7 +12241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = UnstoppableWallet/Info.plist;
+				INFOPLIST_FILE = Dextrade/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -12317,7 +12313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = UnstoppableWallet/Info.plist;
+				INFOPLIST_FILE = Dextrade/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -12340,11 +12336,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A56433D5D39CCA995F97777 /* Development.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = UnstoppableWallet/Configuration/Development.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Dextrade/Configuration/Development.entitlements;
 				DEVELOPMENT_TEAM = HC4MCAXJ66;
+				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.horizontalsystems.bank-wallet.dev";
-				PRODUCT_MODULE_NAME = Unstoppable_Dev;
-				PRODUCT_NAME = "Unstoppable D";
+				PRODUCT_MODULE_NAME = Dextrade_Dev;
+				PRODUCT_NAME = Dextrade_D;
 				PROVISIONING_PROFILE_SPECIFIER = "match Development io.horizontalsystems.bank-wallet.dev";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -12358,11 +12355,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A56433D5D39CCA995F97777 /* Development.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = UnstoppableWallet/Configuration/Development.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Dextrade/Configuration/Development.entitlements;
 				DEVELOPMENT_TEAM = HC4MCAXJ66;
+				MARKETING_VERSION = 2.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.horizontalsystems.bank-wallet.dev";
-				PRODUCT_MODULE_NAME = Unstoppable_Dev;
-				PRODUCT_NAME = "Unstoppable D";
+				PRODUCT_MODULE_NAME = Dextrade_Dev;
+				PRODUCT_NAME = Dextrade_D;
 				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc io.horizontalsystems.bank-wallet.dev";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -12376,12 +12374,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A5648F3AB070B0ACB98C7EE /* Production.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = UnstoppableWallet/Configuration/Production.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Dextrade/Configuration/Production.entitlements;
 				DEVELOPMENT_TEAM = HC4MCAXJ66;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = HC4MCAXJ66;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.horizontalsystems.bank-wallet";
-				PRODUCT_MODULE_NAME = Unstoppable;
-				PRODUCT_NAME = Unstoppable;
+				PRODUCT_MODULE_NAME = Dextrade;
+				PRODUCT_NAME = Dextrade;
 				PROVISIONING_PROFILE_SPECIFIER = "match Development io.horizontalsystems.bank-wallet";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development io.horizontalsystems.bank-wallet";
 				SUPPORTS_MACCATALYST = NO;
@@ -12394,11 +12392,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A5648F3AB070B0ACB98C7EE /* Production.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = UnstoppableWallet/Configuration/Production.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Dextrade/Configuration/Production.entitlements;
 				DEVELOPMENT_TEAM = HC4MCAXJ66;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.horizontalsystems.bank-wallet";
-				PRODUCT_MODULE_NAME = Unstoppable;
-				PRODUCT_NAME = Unstoppable;
+				PRODUCT_MODULE_NAME = Dextrade;
+				PRODUCT_NAME = Dextrade;
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.horizontalsystems.bank-wallet";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -12409,7 +12407,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D3285F3D20BD158E00644076 /* Build configuration list for PBXProject "UnstoppableWallet" */ = {
+		D3285F3D20BD158E00644076 /* Build configuration list for PBXProject "Dextrade" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3285F5220BD158F00644076 /* Debug */,
