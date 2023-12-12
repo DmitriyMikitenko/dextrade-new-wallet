@@ -10,7 +10,7 @@ class MainViewController: ThemeTabBarController {
 
     private let viewModel: MainViewModel
 
-    private var marketModule: UIViewController?
+    //private var marketModule: UIViewController?
     private let balanceModule = ThemeNavigationController(rootViewController: WalletModule.viewController())
     private let transactionsModule = ThemeNavigationController(rootViewController: TransactionsModule.viewController())
     private let settingsModule = ThemeNavigationController(rootViewController: MainSettingsModule.viewController())
@@ -25,7 +25,7 @@ class MainViewController: ThemeTabBarController {
 
         super.init()
 
-        selectedIndex = viewModel.initialTab.rawValue
+        selectedIndex = 0
     }
 
     @available(*, unavailable)
@@ -78,14 +78,14 @@ class MainViewController: ThemeTabBarController {
 
     private func sync(balanceTabState _: MainViewModel.BalanceTabState) {
         var viewControllers = [UIViewController]()
-        if viewModel.showMarket {
-            let marketModule = marketModule ?? ThemeNavigationController(rootViewController: MarketModule.viewController())
-            self.marketModule = marketModule
-
-            viewControllers.append(marketModule)
-        } else {
-            marketModule = nil
-        }
+//        if viewModel.showMarket {
+//            let marketModule = marketModule ?? ThemeNavigationController(rootViewController: MarketModule.viewController())
+//            self.marketModule = marketModule
+//
+//            viewControllers.append(marketModule)
+//        } else {
+//            marketModule = nil
+//        }
 
         viewControllers.append(contentsOf: [
             balanceModule,
